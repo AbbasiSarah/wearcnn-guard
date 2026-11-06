@@ -1,6 +1,6 @@
 # WearCNN-Guard
 
-<p align="center"><a href="https://abbasisarah.github.io/assets/videos/demo-wearcnn-guard.mp4"><img src="assets/demo.gif" width="300" alt="17-second project demo"></a><br><sub>17-second demo. Click for the video with sound.</sub></p>
+<p align="center"><a href="https://github.com/AbbasiSarah/wearcnn-guard/blob/main/assets/demo.mp4"><img src="assets/demo.gif" width="300" alt="17-second project demo"></a><br><sub>17-second demo. Click for the video with sound.</sub></p>
 
 **Depression screening from one week of wrist activity, with a provable 90% guarantee.**
 
