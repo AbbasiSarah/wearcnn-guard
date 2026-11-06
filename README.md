@@ -1,5 +1,7 @@
 # WearCNN-Guard
 
+<p align="center"><a href="https://abbasisarah.github.io/assets/videos/demo-wearcnn-guard.mp4"><img src="assets/demo.gif" width="300" alt="17-second project demo"></a><br><sub>17-second demo. Click for the video with sound.</sub></p>
+
 **Depression screening from one week of wrist activity, with a provable 90% guarantee.**
 
 A 1-D convolutional neural network, written from scratch in NumPy, reads one week of minute-by-minute wrist activity from **8,723 US adults (NHANES 2011–2014)** and screens for depression (PHQ-9 ≥ 10). Instead of a single yes/no answer, it returns a **conformal prediction set** that contains the true answer at least 90% of the time. With class-conditional ("Mondrian") calibration, that guarantee also holds for depressed people specifically, not just on average.
