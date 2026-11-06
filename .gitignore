@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 results/split0_preds.npz
 results/run.log
+prep.log
