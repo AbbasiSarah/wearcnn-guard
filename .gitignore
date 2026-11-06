@@ -1,0 +1,6 @@
+data/
+nhanes_raw/
+__pycache__/
+*.pyc
+results/split0_preds.npz
+results/run.log

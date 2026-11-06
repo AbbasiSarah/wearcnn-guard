@@ -1,0 +1,1518 @@
+{
+ "n_people": 8723,
+ "n_depressed": 800,
+ "splits": {
+  "LogReg (rhythm features)": [
+   {
+    "auc": 0.6141048895899054,
+    "auprc": 0.1306412335869121,
+    "sensitivity": 0.66875,
+    "specificity": 0.5154574132492113,
+    "marginal_a0.1_coverage": 0.907163323782235,
+    "marginal_a0.1_coverage_depressed": 0.91875,
+    "marginal_a0.1_coverage_not_depressed": 0.905993690851735,
+    "marginal_a0.1_avg_set_size": 1.7381088825214899,
+    "marginal_a0.1_share_single": 0.26189111747851,
+    "marginal_a0.1_share_both": 0.73810888252149,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9054441260744985,
+    "mondrian_a0.1_coverage_depressed": 0.8875,
+    "mondrian_a0.1_coverage_not_depressed": 0.9072555205047319,
+    "mondrian_a0.1_avg_set_size": 1.7048710601719197,
+    "mondrian_a0.1_share_single": 0.29512893982808025,
+    "mondrian_a0.1_share_both": 0.7048710601719198,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7891117478510029,
+    "marginal_a0.2_coverage_depressed": 0.78125,
+    "marginal_a0.2_coverage_not_depressed": 0.7899053627760252,
+    "marginal_a0.2_avg_set_size": 1.383381088825215,
+    "marginal_a0.2_share_single": 0.6166189111747851,
+    "marginal_a0.2_share_both": 0.3833810888252149,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.7828080229226361,
+    "mondrian_a0.2_coverage_depressed": 0.83125,
+    "mondrian_a0.2_coverage_not_depressed": 0.7779179810725552,
+    "mondrian_a0.2_avg_set_size": 1.4699140401146131,
+    "mondrian_a0.2_share_single": 0.5300859598853869,
+    "mondrian_a0.2_share_both": 0.4699140401146132,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6547634069400631,
+    "auprc": 0.1687523630294745,
+    "sensitivity": 0.7,
+    "specificity": 0.5198738170347004,
+    "marginal_a0.1_coverage": 0.9077363896848137,
+    "marginal_a0.1_coverage_depressed": 0.93125,
+    "marginal_a0.1_coverage_not_depressed": 0.9053627760252366,
+    "marginal_a0.1_avg_set_size": 1.6916905444126074,
+    "marginal_a0.1_share_single": 0.30830945558739253,
+    "marginal_a0.1_share_both": 0.6916905444126075,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9020057306590258,
+    "mondrian_a0.1_coverage_depressed": 0.94375,
+    "mondrian_a0.1_coverage_not_depressed": 0.8977917981072555,
+    "mondrian_a0.1_avg_set_size": 1.761031518624642,
+    "mondrian_a0.1_share_single": 0.23896848137535817,
+    "mondrian_a0.1_share_both": 0.7610315186246418,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.811461318051576,
+    "marginal_a0.2_coverage_depressed": 0.76875,
+    "marginal_a0.2_coverage_not_depressed": 0.8157728706624605,
+    "marginal_a0.2_avg_set_size": 1.3547277936962752,
+    "marginal_a0.2_share_single": 0.645272206303725,
+    "marginal_a0.2_share_both": 0.35472779369627505,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.8171919770773639,
+    "mondrian_a0.2_coverage_depressed": 0.88125,
+    "mondrian_a0.2_coverage_not_depressed": 0.8107255520504731,
+    "mondrian_a0.2_avg_set_size": 1.4888252148997134,
+    "mondrian_a0.2_share_single": 0.5111747851002866,
+    "mondrian_a0.2_share_both": 0.4888252148997135,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.670461356466877,
+    "auprc": 0.1558708609940616,
+    "sensitivity": 0.8375,
+    "specificity": 0.3722397476340694,
+    "marginal_a0.1_coverage": 0.9048710601719198,
+    "marginal_a0.1_coverage_depressed": 0.93125,
+    "marginal_a0.1_coverage_not_depressed": 0.9022082018927445,
+    "marginal_a0.1_avg_set_size": 1.7449856733524356,
+    "marginal_a0.1_share_single": 0.25501432664756446,
+    "marginal_a0.1_share_both": 0.7449856733524355,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9048710601719198,
+    "mondrian_a0.1_coverage_depressed": 0.89375,
+    "mondrian_a0.1_coverage_not_depressed": 0.905993690851735,
+    "mondrian_a0.1_avg_set_size": 1.6710601719197709,
+    "mondrian_a0.1_share_single": 0.3289398280802292,
+    "mondrian_a0.1_share_both": 0.6710601719197707,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.8011461318051576,
+    "marginal_a0.2_coverage_depressed": 0.80625,
+    "marginal_a0.2_coverage_not_depressed": 0.8006309148264984,
+    "marginal_a0.2_avg_set_size": 1.3541547277936963,
+    "marginal_a0.2_share_single": 0.6458452722063037,
+    "marginal_a0.2_share_both": 0.3541547277936963,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.7971346704871061,
+    "mondrian_a0.2_coverage_depressed": 0.83125,
+    "mondrian_a0.2_coverage_not_depressed": 0.7936908517350157,
+    "mondrian_a0.2_avg_set_size": 1.4166189111747851,
+    "mondrian_a0.2_share_single": 0.5833810888252149,
+    "mondrian_a0.2_share_both": 0.4166189111747851,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6369597791798107,
+    "auprc": 0.15568948725696047,
+    "sensitivity": 0.61875,
+    "specificity": 0.6397476340694006,
+    "marginal_a0.1_coverage": 0.8997134670487106,
+    "marginal_a0.1_coverage_depressed": 0.95625,
+    "marginal_a0.1_coverage_not_depressed": 0.894006309148265,
+    "marginal_a0.1_avg_set_size": 1.715759312320917,
+    "marginal_a0.1_share_single": 0.2842406876790831,
+    "marginal_a0.1_share_both": 0.7157593123209169,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.8997134670487106,
+    "mondrian_a0.1_coverage_depressed": 0.94375,
+    "mondrian_a0.1_coverage_not_depressed": 0.8952681388012619,
+    "mondrian_a0.1_avg_set_size": 1.712893982808023,
+    "mondrian_a0.1_share_single": 0.2871060171919771,
+    "mondrian_a0.1_share_both": 0.712893982808023,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7782234957020058,
+    "marginal_a0.2_coverage_depressed": 0.7125,
+    "marginal_a0.2_coverage_not_depressed": 0.7848580441640378,
+    "marginal_a0.2_avg_set_size": 1.3163323782234957,
+    "marginal_a0.2_share_single": 0.6836676217765043,
+    "marginal_a0.2_share_both": 0.3163323782234957,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.7776504297994269,
+    "mondrian_a0.2_coverage_depressed": 0.75625,
+    "mondrian_a0.2_coverage_not_depressed": 0.7798107255520504,
+    "mondrian_a0.2_avg_set_size": 1.369054441260745,
+    "mondrian_a0.2_share_single": 0.6309455587392551,
+    "mondrian_a0.2_share_both": 0.369054441260745,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.606320977917981,
+    "auprc": 0.16496588520092148,
+    "sensitivity": 0.61875,
+    "specificity": 0.5457413249211357,
+    "marginal_a0.1_coverage": 0.9048710601719198,
+    "marginal_a0.1_coverage_depressed": 0.89375,
+    "marginal_a0.1_coverage_not_depressed": 0.905993690851735,
+    "marginal_a0.1_avg_set_size": 1.754727793696275,
+    "marginal_a0.1_share_single": 0.24527220630372493,
+    "marginal_a0.1_share_both": 0.7547277936962751,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.904297994269341,
+    "mondrian_a0.1_coverage_depressed": 0.86875,
+    "mondrian_a0.1_coverage_not_depressed": 0.9078864353312303,
+    "mondrian_a0.1_avg_set_size": 1.6819484240687679,
+    "mondrian_a0.1_share_single": 0.31805157593123207,
+    "mondrian_a0.1_share_both": 0.6819484240687679,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.783381088825215,
+    "marginal_a0.2_coverage_depressed": 0.69375,
+    "marginal_a0.2_coverage_not_depressed": 0.7924290220820189,
+    "marginal_a0.2_avg_set_size": 1.3197707736389686,
+    "marginal_a0.2_share_single": 0.6802292263610316,
+    "marginal_a0.2_share_both": 0.3197707736389685,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.7839541547277937,
+    "mondrian_a0.2_coverage_depressed": 0.68125,
+    "mondrian_a0.2_coverage_not_depressed": 0.7943217665615142,
+    "mondrian_a0.2_avg_set_size": 1.3083094555873926,
+    "mondrian_a0.2_share_single": 0.6916905444126075,
+    "mondrian_a0.2_share_both": 0.30830945558739253,
+    "mondrian_a0.2_share_empty": 0.0
+   }
+  ],
+  "GradBoost (rhythm features)": [
+   {
+    "auc": 0.5651853312302839,
+    "auprc": 0.11617825909422377,
+    "sensitivity": 0.6625,
+    "specificity": 0.42712933753943216,
+    "marginal_a0.1_coverage": 0.9077363896848137,
+    "marginal_a0.1_coverage_depressed": 0.38125,
+    "marginal_a0.1_coverage_not_depressed": 0.9608832807570978,
+    "marginal_a0.1_avg_set_size": 1.2378223495702005,
+    "marginal_a0.1_share_single": 0.7621776504297995,
+    "marginal_a0.1_share_both": 0.23782234957020057,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.8968481375358166,
+    "mondrian_a0.1_coverage_depressed": 0.94375,
+    "mondrian_a0.1_coverage_not_depressed": 0.8921135646687697,
+    "mondrian_a0.1_avg_set_size": 1.8103151862464184,
+    "mondrian_a0.1_share_single": 0.18968481375358165,
+    "mondrian_a0.1_share_both": 0.8103151862464183,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7936962750716332,
+    "marginal_a0.2_coverage_depressed": 0.1875,
+    "marginal_a0.2_coverage_not_depressed": 0.8548895899053628,
+    "marginal_a0.2_avg_set_size": 0.9553008595988539,
+    "marginal_a0.2_share_single": 0.9553008595988539,
+    "marginal_a0.2_share_both": 0.0,
+    "marginal_a0.2_share_empty": 0.04469914040114613,
+    "mondrian_a0.2_coverage": 0.7908309455587392,
+    "mondrian_a0.2_coverage_depressed": 0.825,
+    "mondrian_a0.2_coverage_not_depressed": 0.7873817034700316,
+    "mondrian_a0.2_avg_set_size": 1.5616045845272206,
+    "mondrian_a0.2_share_single": 0.4383954154727794,
+    "mondrian_a0.2_share_both": 0.5616045845272206,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.5896884858044165,
+    "auprc": 0.1309247087686574,
+    "sensitivity": 0.29375,
+    "specificity": 0.8018927444794953,
+    "marginal_a0.1_coverage": 0.8945558739255014,
+    "marginal_a0.1_coverage_depressed": 0.3125,
+    "marginal_a0.1_coverage_not_depressed": 0.9533123028391167,
+    "marginal_a0.1_avg_set_size": 1.188538681948424,
+    "marginal_a0.1_share_single": 0.811461318051576,
+    "marginal_a0.1_share_both": 0.18853868194842408,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.8974212034383954,
+    "mondrian_a0.1_coverage_depressed": 0.975,
+    "mondrian_a0.1_coverage_not_depressed": 0.889589905362776,
+    "mondrian_a0.1_avg_set_size": 1.8200573065902579,
+    "mondrian_a0.1_share_single": 0.17994269340974212,
+    "mondrian_a0.1_share_both": 0.8200573065902579,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7948424068767909,
+    "marginal_a0.2_coverage_depressed": 0.14375,
+    "marginal_a0.2_coverage_not_depressed": 0.8605678233438486,
+    "marginal_a0.2_avg_set_size": 0.9541547277936963,
+    "marginal_a0.2_share_single": 0.9541547277936963,
+    "marginal_a0.2_share_both": 0.0,
+    "marginal_a0.2_share_empty": 0.045845272206303724,
+    "mondrian_a0.2_coverage": 0.8,
+    "mondrian_a0.2_coverage_depressed": 0.875,
+    "mondrian_a0.2_coverage_not_depressed": 0.7924290220820189,
+    "mondrian_a0.2_avg_set_size": 1.5982808022922637,
+    "mondrian_a0.2_share_single": 0.4017191977077364,
+    "mondrian_a0.2_share_both": 0.5982808022922637,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6198422712933753,
+    "auprc": 0.1370686765104524,
+    "sensitivity": 0.63125,
+    "specificity": 0.567192429022082,
+    "marginal_a0.1_coverage": 0.9134670487106017,
+    "marginal_a0.1_coverage_depressed": 0.41875,
+    "marginal_a0.1_coverage_not_depressed": 0.9634069400630915,
+    "marginal_a0.1_avg_set_size": 1.2349570200573066,
+    "marginal_a0.1_share_single": 0.7650429799426934,
+    "marginal_a0.1_share_both": 0.2349570200573066,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9048710601719198,
+    "mondrian_a0.1_coverage_depressed": 0.9,
+    "mondrian_a0.1_coverage_not_depressed": 0.9053627760252366,
+    "mondrian_a0.1_avg_set_size": 1.7742120343839543,
+    "mondrian_a0.1_share_single": 0.22578796561604583,
+    "mondrian_a0.1_share_both": 0.7742120343839541,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.8166189111747851,
+    "marginal_a0.2_coverage_depressed": 0.20625,
+    "marginal_a0.2_coverage_not_depressed": 0.8782334384858044,
+    "marginal_a0.2_avg_set_size": 0.9828080229226361,
+    "marginal_a0.2_share_single": 0.9828080229226361,
+    "marginal_a0.2_share_both": 0.0,
+    "marginal_a0.2_share_empty": 0.017191977077363897,
+    "mondrian_a0.2_coverage": 0.7965616045845272,
+    "mondrian_a0.2_coverage_depressed": 0.81875,
+    "mondrian_a0.2_coverage_not_depressed": 0.7943217665615142,
+    "mondrian_a0.2_avg_set_size": 1.5117478510028652,
+    "mondrian_a0.2_share_single": 0.48825214899713465,
+    "mondrian_a0.2_share_both": 0.5117478510028654,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.5732373817034699,
+    "auprc": 0.12907674941774516,
+    "sensitivity": 0.5375,
+    "specificity": 0.5823343848580441,
+    "marginal_a0.1_coverage": 0.9106017191977077,
+    "marginal_a0.1_coverage_depressed": 0.33125,
+    "marginal_a0.1_coverage_not_depressed": 0.9690851735015773,
+    "marginal_a0.1_avg_set_size": 1.2103151862464183,
+    "marginal_a0.1_share_single": 0.7896848137535817,
+    "marginal_a0.1_share_both": 0.21031518624641835,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9197707736389685,
+    "mondrian_a0.1_coverage_depressed": 0.9125,
+    "mondrian_a0.1_coverage_not_depressed": 0.9205047318611987,
+    "mondrian_a0.1_avg_set_size": 1.805730659025788,
+    "mondrian_a0.1_share_single": 0.19426934097421203,
+    "mondrian_a0.1_share_both": 0.805730659025788,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.811461318051576,
+    "marginal_a0.2_coverage_depressed": 0.18125,
+    "marginal_a0.2_coverage_not_depressed": 0.8750788643533123,
+    "marginal_a0.2_avg_set_size": 0.9535816618911175,
+    "marginal_a0.2_share_single": 0.9535816618911175,
+    "marginal_a0.2_share_both": 0.0,
+    "marginal_a0.2_share_empty": 0.046418338108882524,
+    "mondrian_a0.2_coverage": 0.7959885386819484,
+    "mondrian_a0.2_coverage_depressed": 0.78125,
+    "mondrian_a0.2_coverage_not_depressed": 0.7974763406940063,
+    "mondrian_a0.2_avg_set_size": 1.5277936962750716,
+    "mondrian_a0.2_share_single": 0.4722063037249284,
+    "mondrian_a0.2_share_both": 0.5277936962750717,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.5872988958990536,
+    "auprc": 0.12177273936146638,
+    "sensitivity": 0.475,
+    "specificity": 0.6511041009463723,
+    "marginal_a0.1_coverage": 0.8974212034383954,
+    "marginal_a0.1_coverage_depressed": 0.3375,
+    "marginal_a0.1_coverage_not_depressed": 0.9539432176656152,
+    "marginal_a0.1_avg_set_size": 1.18567335243553,
+    "marginal_a0.1_share_single": 0.8143266475644699,
+    "marginal_a0.1_share_both": 0.1856733524355301,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.8888252148997134,
+    "mondrian_a0.1_coverage_depressed": 0.925,
+    "mondrian_a0.1_coverage_not_depressed": 0.885173501577287,
+    "mondrian_a0.1_avg_set_size": 1.7489971346704871,
+    "mondrian_a0.1_share_single": 0.2510028653295129,
+    "mondrian_a0.1_share_both": 0.7489971346704871,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7845272206303725,
+    "marginal_a0.2_coverage_depressed": 0.125,
+    "marginal_a0.2_coverage_not_depressed": 0.8511041009463722,
+    "marginal_a0.2_avg_set_size": 0.9421203438395416,
+    "marginal_a0.2_share_single": 0.9421203438395416,
+    "marginal_a0.2_share_both": 0.0,
+    "marginal_a0.2_share_empty": 0.057879656160458454,
+    "mondrian_a0.2_coverage": 0.7879656160458453,
+    "mondrian_a0.2_coverage_depressed": 0.85,
+    "mondrian_a0.2_coverage_not_depressed": 0.7817034700315457,
+    "mondrian_a0.2_avg_set_size": 1.5461318051575932,
+    "mondrian_a0.2_share_single": 0.45386819484240687,
+    "mondrian_a0.2_share_both": 0.5461318051575931,
+    "mondrian_a0.2_share_empty": 0.0
+   }
+  ],
+  "LogReg (rhythm + age, sex)": [
+   {
+    "auc": 0.6679968454258676,
+    "auprc": 0.1630827924452857,
+    "sensitivity": 0.6875,
+    "specificity": 0.5772870662460567,
+    "marginal_a0.1_coverage": 0.904297994269341,
+    "marginal_a0.1_coverage_depressed": 0.8875,
+    "marginal_a0.1_coverage_not_depressed": 0.905993690851735,
+    "marginal_a0.1_avg_set_size": 1.6636103151862465,
+    "marginal_a0.1_share_single": 0.3363896848137536,
+    "marginal_a0.1_share_both": 0.6636103151862465,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9037249283667622,
+    "mondrian_a0.1_coverage_depressed": 0.9375,
+    "mondrian_a0.1_coverage_not_depressed": 0.9003154574132493,
+    "mondrian_a0.1_avg_set_size": 1.7484240687679082,
+    "mondrian_a0.1_share_single": 0.2515759312320917,
+    "mondrian_a0.1_share_both": 0.7484240687679083,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.8034383954154728,
+    "marginal_a0.2_coverage_depressed": 0.79375,
+    "marginal_a0.2_coverage_not_depressed": 0.804416403785489,
+    "marginal_a0.2_avg_set_size": 1.3730659025787966,
+    "marginal_a0.2_share_single": 0.6269340974212034,
+    "marginal_a0.2_share_both": 0.37306590257879657,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.802865329512894,
+    "mondrian_a0.2_coverage_depressed": 0.83125,
+    "mondrian_a0.2_coverage_not_depressed": 0.8,
+    "mondrian_a0.2_avg_set_size": 1.4550143266475644,
+    "mondrian_a0.2_share_single": 0.5449856733524355,
+    "mondrian_a0.2_share_both": 0.45501432664756447,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6818375394321767,
+    "auprc": 0.20851241992698752,
+    "sensitivity": 0.58125,
+    "specificity": 0.6883280757097792,
+    "marginal_a0.1_coverage": 0.9031518624641833,
+    "marginal_a0.1_coverage_depressed": 0.875,
+    "marginal_a0.1_coverage_not_depressed": 0.905993690851735,
+    "marginal_a0.1_avg_set_size": 1.633810888252149,
+    "marginal_a0.1_share_single": 0.366189111747851,
+    "marginal_a0.1_share_both": 0.633810888252149,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9031518624641833,
+    "mondrian_a0.1_coverage_depressed": 0.93125,
+    "mondrian_a0.1_coverage_not_depressed": 0.9003154574132493,
+    "mondrian_a0.1_avg_set_size": 1.7283667621776504,
+    "mondrian_a0.1_share_single": 0.27163323782234955,
+    "mondrian_a0.1_share_both": 0.7283667621776504,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.8097421203438395,
+    "marginal_a0.2_coverage_depressed": 0.7875,
+    "marginal_a0.2_coverage_not_depressed": 0.8119873817034701,
+    "marginal_a0.2_avg_set_size": 1.3553008595988538,
+    "marginal_a0.2_share_single": 0.6446991404011462,
+    "marginal_a0.2_share_both": 0.3553008595988539,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.802865329512894,
+    "mondrian_a0.2_coverage_depressed": 0.84375,
+    "mondrian_a0.2_coverage_not_depressed": 0.7987381703470031,
+    "mondrian_a0.2_avg_set_size": 1.4653295128939827,
+    "mondrian_a0.2_share_single": 0.5346704871060172,
+    "mondrian_a0.2_share_both": 0.46532951289398283,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6690851735015773,
+    "auprc": 0.1620370060265979,
+    "sensitivity": 0.73125,
+    "specificity": 0.48391167192429024,
+    "marginal_a0.1_coverage": 0.9025787965616046,
+    "marginal_a0.1_coverage_depressed": 0.925,
+    "marginal_a0.1_coverage_not_depressed": 0.9003154574132493,
+    "marginal_a0.1_avg_set_size": 1.6452722063037248,
+    "marginal_a0.1_share_single": 0.35472779369627505,
+    "marginal_a0.1_share_both": 0.645272206303725,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9037249283667622,
+    "mondrian_a0.1_coverage_depressed": 0.9375,
+    "mondrian_a0.1_coverage_not_depressed": 0.9003154574132493,
+    "mondrian_a0.1_avg_set_size": 1.6934097421203438,
+    "mondrian_a0.1_share_single": 0.30659025787965616,
+    "mondrian_a0.1_share_both": 0.6934097421203438,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7988538681948424,
+    "marginal_a0.2_coverage_depressed": 0.8,
+    "marginal_a0.2_coverage_not_depressed": 0.7987381703470031,
+    "marginal_a0.2_avg_set_size": 1.3765042979942694,
+    "marginal_a0.2_share_single": 0.6234957020057307,
+    "marginal_a0.2_share_both": 0.3765042979942693,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.8,
+    "mondrian_a0.2_coverage_depressed": 0.8125,
+    "mondrian_a0.2_coverage_not_depressed": 0.7987381703470031,
+    "mondrian_a0.2_avg_set_size": 1.4051575931232092,
+    "mondrian_a0.2_share_single": 0.5948424068767908,
+    "mondrian_a0.2_share_both": 0.40515759312320915,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6736198738170347,
+    "auprc": 0.17868542273527707,
+    "sensitivity": 0.64375,
+    "specificity": 0.6100946372239747,
+    "marginal_a0.1_coverage": 0.8939828080229226,
+    "marginal_a0.1_coverage_depressed": 0.89375,
+    "marginal_a0.1_coverage_not_depressed": 0.894006309148265,
+    "marginal_a0.1_avg_set_size": 1.6412607449856733,
+    "marginal_a0.1_share_single": 0.35873925501432663,
+    "marginal_a0.1_share_both": 0.6412607449856733,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.8934097421203439,
+    "mondrian_a0.1_coverage_depressed": 0.875,
+    "mondrian_a0.1_coverage_not_depressed": 0.8952681388012619,
+    "mondrian_a0.1_avg_set_size": 1.6126074498567335,
+    "mondrian_a0.1_share_single": 0.38739255014326646,
+    "mondrian_a0.1_share_both": 0.6126074498567335,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7845272206303725,
+    "marginal_a0.2_coverage_depressed": 0.79375,
+    "marginal_a0.2_coverage_not_depressed": 0.783596214511041,
+    "marginal_a0.2_avg_set_size": 1.3386819484240688,
+    "marginal_a0.2_share_single": 0.6613180515759313,
+    "marginal_a0.2_share_both": 0.3386819484240688,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.7868194842406877,
+    "mondrian_a0.2_coverage_depressed": 0.81875,
+    "mondrian_a0.2_coverage_not_depressed": 0.783596214511041,
+    "mondrian_a0.2_avg_set_size": 1.3610315186246418,
+    "mondrian_a0.2_share_single": 0.6389684813753582,
+    "mondrian_a0.2_share_both": 0.36103151862464183,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6185331230283911,
+    "auprc": 0.17961256324025893,
+    "sensitivity": 0.49375,
+    "specificity": 0.7066246056782335,
+    "marginal_a0.1_coverage": 0.8939828080229226,
+    "marginal_a0.1_coverage_depressed": 0.8375,
+    "marginal_a0.1_coverage_not_depressed": 0.8996845425867508,
+    "marginal_a0.1_avg_set_size": 1.6401146131805158,
+    "marginal_a0.1_share_single": 0.35988538681948423,
+    "marginal_a0.1_share_both": 0.6401146131805158,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.8922636103151862,
+    "mondrian_a0.1_coverage_depressed": 0.7625,
+    "mondrian_a0.1_coverage_not_depressed": 0.9053627760252366,
+    "mondrian_a0.1_avg_set_size": 1.563323782234957,
+    "mondrian_a0.1_share_single": 0.436676217765043,
+    "mondrian_a0.1_share_both": 0.563323782234957,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7787965616045845,
+    "marginal_a0.2_coverage_depressed": 0.70625,
+    "marginal_a0.2_coverage_not_depressed": 0.7861198738170347,
+    "marginal_a0.2_avg_set_size": 1.3782234957020056,
+    "marginal_a0.2_share_single": 0.6217765042979942,
+    "marginal_a0.2_share_both": 0.37822349570200575,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.7810888252148998,
+    "mondrian_a0.2_coverage_depressed": 0.7,
+    "mondrian_a0.2_coverage_not_depressed": 0.7892744479495268,
+    "mondrian_a0.2_avg_set_size": 1.3684813753581662,
+    "mondrian_a0.2_share_single": 0.6315186246418338,
+    "mondrian_a0.2_share_both": 0.36848137535816616,
+    "mondrian_a0.2_share_empty": 0.0
+   }
+  ],
+  "GradBoost (rhythm + age, sex)": [
+   {
+    "auc": 0.6349960567823344,
+    "auprc": 0.1621667200821156,
+    "sensitivity": 0.64375,
+    "specificity": 0.546372239747634,
+    "marginal_a0.1_coverage": 0.9065902578796562,
+    "marginal_a0.1_coverage_depressed": 0.43125,
+    "marginal_a0.1_coverage_not_depressed": 0.9545741324921135,
+    "marginal_a0.1_avg_set_size": 1.182808022922636,
+    "marginal_a0.1_share_single": 0.8171919770773639,
+    "marginal_a0.1_share_both": 0.1828080229226361,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.8974212034383954,
+    "mondrian_a0.1_coverage_depressed": 0.89375,
+    "mondrian_a0.1_coverage_not_depressed": 0.8977917981072555,
+    "mondrian_a0.1_avg_set_size": 1.726647564469914,
+    "mondrian_a0.1_share_single": 0.273352435530086,
+    "mondrian_a0.1_share_both": 0.7266475644699141,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.8126074498567335,
+    "marginal_a0.2_coverage_depressed": 0.23125,
+    "marginal_a0.2_coverage_not_depressed": 0.8712933753943217,
+    "marginal_a0.2_avg_set_size": 0.9638968481375358,
+    "marginal_a0.2_share_single": 0.9638968481375358,
+    "marginal_a0.2_share_both": 0.0,
+    "marginal_a0.2_share_empty": 0.03610315186246418,
+    "mondrian_a0.2_coverage": 0.8131805157593123,
+    "mondrian_a0.2_coverage_depressed": 0.825,
+    "mondrian_a0.2_coverage_not_depressed": 0.8119873817034701,
+    "mondrian_a0.2_avg_set_size": 1.520916905444126,
+    "mondrian_a0.2_share_single": 0.47908309455587395,
+    "mondrian_a0.2_share_both": 0.520916905444126,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6254929022082019,
+    "auprc": 0.14382530388936582,
+    "sensitivity": 0.49375,
+    "specificity": 0.6845425867507886,
+    "marginal_a0.1_coverage": 0.8939828080229226,
+    "marginal_a0.1_coverage_depressed": 0.35625,
+    "marginal_a0.1_coverage_not_depressed": 0.9482649842271293,
+    "marginal_a0.1_avg_set_size": 1.1650429799426933,
+    "marginal_a0.1_share_single": 0.8349570200573065,
+    "marginal_a0.1_share_both": 0.1650429799426934,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.8997134670487106,
+    "mondrian_a0.1_coverage_depressed": 0.94375,
+    "mondrian_a0.1_coverage_not_depressed": 0.8952681388012619,
+    "mondrian_a0.1_avg_set_size": 1.7409742120343839,
+    "mondrian_a0.1_share_single": 0.25902578796561604,
+    "mondrian_a0.1_share_both": 0.740974212034384,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7908309455587392,
+    "marginal_a0.2_coverage_depressed": 0.19375,
+    "marginal_a0.2_coverage_not_depressed": 0.8511041009463722,
+    "marginal_a0.2_avg_set_size": 0.951862464183381,
+    "marginal_a0.2_share_single": 0.951862464183381,
+    "marginal_a0.2_share_both": 0.0,
+    "marginal_a0.2_share_empty": 0.048137535816618914,
+    "mondrian_a0.2_coverage": 0.8022922636103151,
+    "mondrian_a0.2_coverage_depressed": 0.8625,
+    "mondrian_a0.2_coverage_not_depressed": 0.7962145110410095,
+    "mondrian_a0.2_avg_set_size": 1.512893982808023,
+    "mondrian_a0.2_share_single": 0.4871060171919771,
+    "mondrian_a0.2_share_both": 0.5128939828080229,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.659660883280757,
+    "auprc": 0.15998105871809454,
+    "sensitivity": 0.48125,
+    "specificity": 0.7570977917981072,
+    "marginal_a0.1_coverage": 0.901432664756447,
+    "marginal_a0.1_coverage_depressed": 0.43125,
+    "marginal_a0.1_coverage_not_depressed": 0.9488958990536278,
+    "marginal_a0.1_avg_set_size": 1.1673352435530087,
+    "marginal_a0.1_share_single": 0.8326647564469914,
+    "marginal_a0.1_share_both": 0.1673352435530086,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.8888252148997134,
+    "mondrian_a0.1_coverage_depressed": 0.93125,
+    "mondrian_a0.1_coverage_not_depressed": 0.8845425867507887,
+    "mondrian_a0.1_avg_set_size": 1.7381088825214899,
+    "mondrian_a0.1_share_single": 0.26189111747851,
+    "mondrian_a0.1_share_both": 0.73810888252149,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7839541547277937,
+    "marginal_a0.2_coverage_depressed": 0.21875,
+    "marginal_a0.2_coverage_not_depressed": 0.8410094637223975,
+    "marginal_a0.2_avg_set_size": 0.9186246418338109,
+    "marginal_a0.2_share_single": 0.9186246418338109,
+    "marginal_a0.2_share_both": 0.0,
+    "marginal_a0.2_share_empty": 0.08137535816618911,
+    "mondrian_a0.2_coverage": 0.7839541547277937,
+    "mondrian_a0.2_coverage_depressed": 0.8625,
+    "mondrian_a0.2_coverage_not_depressed": 0.7760252365930599,
+    "mondrian_a0.2_avg_set_size": 1.4773638968481375,
+    "mondrian_a0.2_share_single": 0.5226361031518625,
+    "mondrian_a0.2_share_both": 0.4773638968481375,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.618935331230284,
+    "auprc": 0.167337543442011,
+    "sensitivity": 0.45,
+    "specificity": 0.7406940063091483,
+    "marginal_a0.1_coverage": 0.9088825214899714,
+    "marginal_a0.1_coverage_depressed": 0.35625,
+    "marginal_a0.1_coverage_not_depressed": 0.9646687697160883,
+    "marginal_a0.1_avg_set_size": 1.146131805157593,
+    "marginal_a0.1_share_single": 0.8538681948424068,
+    "marginal_a0.1_share_both": 0.14613180515759314,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9077363896848137,
+    "mondrian_a0.1_coverage_depressed": 0.89375,
+    "mondrian_a0.1_coverage_not_depressed": 0.9091482649842272,
+    "mondrian_a0.1_avg_set_size": 1.7616045845272206,
+    "mondrian_a0.1_share_single": 0.23839541547277937,
+    "mondrian_a0.1_share_both": 0.7616045845272207,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.8011461318051576,
+    "marginal_a0.2_coverage_depressed": 0.175,
+    "marginal_a0.2_coverage_not_depressed": 0.8643533123028391,
+    "marginal_a0.2_avg_set_size": 0.9128939828080229,
+    "marginal_a0.2_share_single": 0.9128939828080229,
+    "marginal_a0.2_share_both": 0.0,
+    "marginal_a0.2_share_empty": 0.08710601719197708,
+    "mondrian_a0.2_coverage": 0.8108882521489972,
+    "mondrian_a0.2_coverage_depressed": 0.81875,
+    "mondrian_a0.2_coverage_not_depressed": 0.8100946372239748,
+    "mondrian_a0.2_avg_set_size": 1.520916905444126,
+    "mondrian_a0.2_share_single": 0.47908309455587395,
+    "mondrian_a0.2_share_both": 0.520916905444126,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6064471608832808,
+    "auprc": 0.13066675449167198,
+    "sensitivity": 0.45,
+    "specificity": 0.7217665615141956,
+    "marginal_a0.1_coverage": 0.8842406876790831,
+    "marginal_a0.1_coverage_depressed": 0.35,
+    "marginal_a0.1_coverage_not_depressed": 0.9381703470031546,
+    "marginal_a0.1_avg_set_size": 1.1501432664756448,
+    "marginal_a0.1_share_single": 0.8498567335243553,
+    "marginal_a0.1_share_both": 0.1501432664756447,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.8767908309455588,
+    "mondrian_a0.1_coverage_depressed": 0.9,
+    "mondrian_a0.1_coverage_not_depressed": 0.8744479495268139,
+    "mondrian_a0.1_avg_set_size": 1.7065902578796561,
+    "mondrian_a0.1_share_single": 0.2934097421203438,
+    "mondrian_a0.1_share_both": 0.7065902578796561,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7702005730659026,
+    "marginal_a0.2_coverage_depressed": 0.125,
+    "marginal_a0.2_coverage_not_depressed": 0.8353312302839117,
+    "marginal_a0.2_avg_set_size": 0.904297994269341,
+    "marginal_a0.2_share_single": 0.904297994269341,
+    "marginal_a0.2_share_both": 0.0,
+    "marginal_a0.2_share_empty": 0.09570200573065903,
+    "mondrian_a0.2_coverage": 0.7719197707736389,
+    "mondrian_a0.2_coverage_depressed": 0.8,
+    "mondrian_a0.2_coverage_not_depressed": 0.7690851735015772,
+    "mondrian_a0.2_avg_set_size": 1.4601719197707737,
+    "mondrian_a0.2_share_single": 0.5398280802292263,
+    "mondrian_a0.2_share_both": 0.46017191977077365,
+    "mondrian_a0.2_share_empty": 0.0
+   }
+  ],
+  "1-D CNN (activity only)": [
+   {
+    "auc": 0.6507334384858043,
+    "auprc": 0.1501324081629435,
+    "sensitivity": 0.80625,
+    "specificity": 0.4195583596214511,
+    "marginal_a0.1_coverage": 0.8853868194842407,
+    "marginal_a0.1_coverage_depressed": 0.9125,
+    "marginal_a0.1_coverage_not_depressed": 0.8826498422712934,
+    "marginal_a0.1_avg_set_size": 1.6899713467048711,
+    "marginal_a0.1_share_single": 0.31002865329512896,
+    "marginal_a0.1_share_both": 0.689971346704871,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.8865329512893982,
+    "mondrian_a0.1_coverage_depressed": 0.93125,
+    "mondrian_a0.1_coverage_not_depressed": 0.8820189274447949,
+    "mondrian_a0.1_avg_set_size": 1.7277936962750717,
+    "mondrian_a0.1_share_single": 0.2722063037249284,
+    "mondrian_a0.1_share_both": 0.7277936962750716,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7879656160458453,
+    "marginal_a0.2_coverage_depressed": 0.8375,
+    "marginal_a0.2_coverage_not_depressed": 0.7829652996845425,
+    "marginal_a0.2_avg_set_size": 1.436676217765043,
+    "marginal_a0.2_share_single": 0.563323782234957,
+    "marginal_a0.2_share_both": 0.436676217765043,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.7891117478510029,
+    "mondrian_a0.2_coverage_depressed": 0.88125,
+    "mondrian_a0.2_coverage_not_depressed": 0.7798107255520504,
+    "mondrian_a0.2_avg_set_size": 1.495702005730659,
+    "mondrian_a0.2_share_single": 0.504297994269341,
+    "mondrian_a0.2_share_both": 0.49570200573065903,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6544440063091483,
+    "auprc": 0.17426245113026445,
+    "sensitivity": 0.60625,
+    "specificity": 0.5930599369085173,
+    "marginal_a0.1_coverage": 0.9117478510028654,
+    "marginal_a0.1_coverage_depressed": 0.95,
+    "marginal_a0.1_coverage_not_depressed": 0.9078864353312303,
+    "marginal_a0.1_avg_set_size": 1.7134670487106016,
+    "marginal_a0.1_share_single": 0.28653295128939826,
+    "marginal_a0.1_share_both": 0.7134670487106017,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9111747851002865,
+    "mondrian_a0.1_coverage_depressed": 0.975,
+    "mondrian_a0.1_coverage_not_depressed": 0.9047318611987382,
+    "mondrian_a0.1_avg_set_size": 1.7449856733524356,
+    "mondrian_a0.1_share_single": 0.25501432664756446,
+    "mondrian_a0.1_share_both": 0.7449856733524355,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.794269340974212,
+    "marginal_a0.2_coverage_depressed": 0.825,
+    "marginal_a0.2_coverage_not_depressed": 0.7911671924290221,
+    "marginal_a0.2_avg_set_size": 1.4343839541547279,
+    "marginal_a0.2_share_single": 0.5656160458452723,
+    "marginal_a0.2_share_both": 0.4343839541547278,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.7959885386819484,
+    "mondrian_a0.2_coverage_depressed": 0.86875,
+    "mondrian_a0.2_coverage_not_depressed": 0.7886435331230284,
+    "mondrian_a0.2_avg_set_size": 1.495702005730659,
+    "mondrian_a0.2_share_single": 0.504297994269341,
+    "mondrian_a0.2_share_both": 0.49570200573065903,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6784266561514196,
+    "auprc": 0.16231809481088025,
+    "sensitivity": 0.7125,
+    "specificity": 0.5236593059936908,
+    "marginal_a0.1_coverage": 0.9054441260744985,
+    "marginal_a0.1_coverage_depressed": 0.875,
+    "marginal_a0.1_coverage_not_depressed": 0.9085173501577287,
+    "marginal_a0.1_avg_set_size": 1.5862464183381089,
+    "marginal_a0.1_share_single": 0.41375358166189113,
+    "marginal_a0.1_share_both": 0.5862464183381089,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9002865329512894,
+    "mondrian_a0.1_coverage_depressed": 0.9375,
+    "mondrian_a0.1_coverage_not_depressed": 0.8965299684542587,
+    "mondrian_a0.1_avg_set_size": 1.6916905444126074,
+    "mondrian_a0.1_share_single": 0.30830945558739253,
+    "mondrian_a0.1_share_both": 0.6916905444126075,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.8040114613180516,
+    "marginal_a0.2_coverage_depressed": 0.7,
+    "marginal_a0.2_coverage_not_depressed": 0.8145110410094637,
+    "marginal_a0.2_avg_set_size": 1.2773638968481376,
+    "marginal_a0.2_share_single": 0.7226361031518624,
+    "marginal_a0.2_share_both": 0.27736389684813756,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.802865329512894,
+    "mondrian_a0.2_coverage_depressed": 0.90625,
+    "mondrian_a0.2_coverage_not_depressed": 0.7924290220820189,
+    "mondrian_a0.2_avg_set_size": 1.4922636103151863,
+    "mondrian_a0.2_share_single": 0.5077363896848137,
+    "mondrian_a0.2_share_both": 0.49226361031518623,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6416679810725552,
+    "auprc": 0.14961726359395588,
+    "sensitivity": 0.65625,
+    "specificity": 0.4971608832807571,
+    "marginal_a0.1_coverage": 0.904297994269341,
+    "marginal_a0.1_coverage_depressed": 0.975,
+    "marginal_a0.1_coverage_not_depressed": 0.897160883280757,
+    "marginal_a0.1_avg_set_size": 1.8160458452722064,
+    "marginal_a0.1_share_single": 0.1839541547277937,
+    "marginal_a0.1_share_both": 0.8160458452722062,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9002865329512894,
+    "mondrian_a0.1_coverage_depressed": 0.88125,
+    "mondrian_a0.1_coverage_not_depressed": 0.9022082018927445,
+    "mondrian_a0.1_avg_set_size": 1.6297994269340974,
+    "mondrian_a0.1_share_single": 0.3702005730659026,
+    "mondrian_a0.1_share_both": 0.6297994269340974,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.8154727793696275,
+    "marginal_a0.2_coverage_depressed": 0.9,
+    "marginal_a0.2_coverage_not_depressed": 0.8069400630914827,
+    "marginal_a0.2_avg_set_size": 1.5570200573065902,
+    "marginal_a0.2_share_single": 0.44297994269340973,
+    "marginal_a0.2_share_both": 0.5570200573065902,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.8045845272206303,
+    "mondrian_a0.2_coverage_depressed": 0.7,
+    "mondrian_a0.2_coverage_not_depressed": 0.8151419558359622,
+    "mondrian_a0.2_avg_set_size": 1.3461318051575932,
+    "mondrian_a0.2_share_single": 0.6538681948424069,
+    "mondrian_a0.2_share_both": 0.3461318051575931,
+    "mondrian_a0.2_share_empty": 0.0
+   },
+   {
+    "auc": 0.6055875394321767,
+    "auprc": 0.16230390985313714,
+    "sensitivity": 0.6375,
+    "specificity": 0.48454258675078865,
+    "marginal_a0.1_coverage": 0.9106017191977077,
+    "marginal_a0.1_coverage_depressed": 0.925,
+    "marginal_a0.1_coverage_not_depressed": 0.9091482649842272,
+    "marginal_a0.1_avg_set_size": 1.7535816618911175,
+    "marginal_a0.1_share_single": 0.24641833810888253,
+    "marginal_a0.1_share_both": 0.7535816618911175,
+    "marginal_a0.1_share_empty": 0.0,
+    "mondrian_a0.1_coverage": 0.9008595988538682,
+    "mondrian_a0.1_coverage_depressed": 0.79375,
+    "mondrian_a0.1_coverage_not_depressed": 0.9116719242902208,
+    "mondrian_a0.1_avg_set_size": 1.6034383954154727,
+    "mondrian_a0.1_share_single": 0.3965616045845272,
+    "mondrian_a0.1_share_both": 0.6034383954154727,
+    "mondrian_a0.1_share_empty": 0.0,
+    "marginal_a0.2_coverage": 0.7891117478510029,
+    "marginal_a0.2_coverage_depressed": 0.7125,
+    "marginal_a0.2_coverage_not_depressed": 0.7968454258675078,
+    "marginal_a0.2_avg_set_size": 1.4206303724928366,
+    "marginal_a0.2_share_single": 0.5793696275071634,
+    "marginal_a0.2_share_both": 0.4206303724928367,
+    "marginal_a0.2_share_empty": 0.0,
+    "mondrian_a0.2_coverage": 0.7896848137535817,
+    "mondrian_a0.2_coverage_depressed": 0.675,
+    "mondrian_a0.2_coverage_not_depressed": 0.8012618296529969,
+    "mondrian_a0.2_avg_set_size": 1.3696275071633237,
+    "mondrian_a0.2_share_single": 0.6303724928366762,
+    "mondrian_a0.2_share_both": 0.36962750716332377,
+    "mondrian_a0.2_share_empty": 0.0
+   }
+  ]
+ },
+ "summary": {
+  "LogReg (rhythm features)": {
+   "auc": [
+    0.6365220820189275,
+    0.02408090143268037
+   ],
+   "auprc": [
+    0.15518396601366602,
+    0.013288042985912936
+   ],
+   "sensitivity": [
+    0.68875,
+    0.0805644152216101
+   ],
+   "specificity": [
+    0.5186119873817034,
+    0.08584430321756298
+   ],
+   "marginal_a0.1_coverage": [
+    0.9048710601719197,
+    0.002830736741599655
+   ],
+   "marginal_a0.1_coverage_depressed": [
+    0.9262499999999999,
+    0.020310096011589906
+   ],
+   "marginal_a0.1_coverage_not_depressed": [
+    0.9027129337539431,
+    0.004574023712401734
+   ],
+   "marginal_a0.1_avg_set_size": [
+    1.729054441260745,
+    0.02266155038379966
+   ],
+   "marginal_a0.1_share_single": [
+    0.27094555873925497,
+    0.022661550383799633
+   ],
+   "marginal_a0.1_share_both": [
+    0.7290544412607449,
+    0.02266155038379962
+   ],
+   "marginal_a0.1_share_empty": [
+    0.0,
+    0.0
+   ],
+   "mondrian_a0.1_coverage": [
+    0.9032664756446991,
+    0.0021257578213170676
+   ],
+   "mondrian_a0.1_coverage_depressed": [
+    0.9075,
+    0.030720514318611253
+   ],
+   "mondrian_a0.1_coverage_not_depressed": [
+    0.902839116719243,
+    0.005248361979327536
+   ],
+   "mondrian_a0.1_avg_set_size": [
+    1.7063610315186246,
+    0.031227832837043442
+   ],
+   "mondrian_a0.1_share_single": [
+    0.29363896848137533,
+    0.031227832837043414
+   ],
+   "mondrian_a0.1_share_both": [
+    0.7063610315186246,
+    0.031227832837043428
+   ],
+   "mondrian_a0.1_share_empty": [
+    0.0,
+    0.0
+   ],
+   "marginal_a0.2_coverage": [
+    0.7926647564469914,
+    0.012104584442437519
+   ],
+   "marginal_a0.2_coverage_depressed": [
+    0.7525000000000001,
+    0.04250000000000001
+   ],
+   "marginal_a0.2_coverage_not_depressed": [
+    0.7967192429022083,
+    0.010806154733631106
+   ],
+   "marginal_a0.2_avg_set_size": [
+    1.34567335243553,
+    0.024930408637516156
+   ],
+   "marginal_a0.2_share_single": [
+    0.6543266475644699,
+    0.024930408637516173
+   ],
+   "marginal_a0.2_share_both": [
+    0.3456733524355301,
+    0.024930408637516145
+   ],
+   "marginal_a0.2_share_empty": [
+    0.0,
+    0.0
+   ],
+   "mondrian_a0.2_coverage": [
+    0.7917478510028653,
+    0.014253567189795334
+   ],
+   "mondrian_a0.2_coverage_depressed": [
+    0.79625,
+    0.06999999999999999
+   ],
+   "mondrian_a0.2_coverage_not_depressed": [
+    0.7912933753943217,
+    0.011859856290230088
+   ],
+   "mondrian_a0.2_avg_set_size": [
+    1.4105444126074498,
+    0.06612554781617716
+   ],
+   "mondrian_a0.2_share_single": [
+    0.5894555873925501,
+    0.06612554781617722
+   ],
+   "mondrian_a0.2_share_both": [
+    0.4105444126074499,
+    0.06612554781617723
+   ],
+   "mondrian_a0.2_share_empty": [
+    0.0,
+    0.0
+   ]
+  },
+  "GradBoost (rhythm features)": {
+   "auc": [
+    0.5870504731861199,
+    0.01871474700113528
+   ],
+   "auprc": [
+    0.12700422663050903,
+    0.007287368721670438
+   ],
+   "sensitivity": [
+    0.52,
+    0.13130356050008696
+   ],
+   "specificity": [
+    0.6059305993690851,
+    0.12204026054871174
+   ],
+   "marginal_a0.1_coverage": [
+    0.904756446991404,
+    0.007440152374609739
+   ],
+   "marginal_a0.1_coverage_depressed": [
+    0.35625,
+    0.0385275875185561
+   ],
+   "marginal_a0.1_coverage_not_depressed": [
+    0.9601261829652998,
+    0.0059373074352144254
+   ],
+   "marginal_a0.1_avg_set_size": [
+    1.2114613180515759,
+    0.02208498145851472
+   ],
+   "marginal_a0.1_share_single": [
+    0.7885386819484241,
+    0.02208498145851472
+   ],
+   "marginal_a0.1_share_both": [
+    0.21146131805157595,
+    0.02208498145851472
+   ],
+   "marginal_a0.1_share_empty": [
+    0.0,
+    0.0
+   ],
+   "mondrian_a0.1_coverage": [
+    0.9015472779369628,
+    0.010431688484110288
+   ],
+   "mondrian_a0.1_coverage_depressed": [
+    0.93125,
+    0.026220221204253772
+   ],
+   "mondrian_a0.1_coverage_not_depressed": [
+    0.8985488958990537,
+    0.012876846414444353
+   ],
+   "mondrian_a0.1_avg_set_size": [
+    1.7918624641833811,
+    0.026369501566866058
+   ],
+   "mondrian_a0.1_share_single": [
+    0.20813753581661887,
+    0.02636950156686606
+   ],
+   "mondrian_a0.1_share_both": [
+    0.7918624641833812,
+    0.026369501566866058
+   ],
+   "mondrian_a0.1_share_empty": [
+    0.0,
+    0.0
+   ],
+   "marginal_a0.2_coverage": [
+    0.8002292263610314,
+    0.011941791429346585
+   ],
+   "marginal_a0.2_coverage_depressed": [
+    0.16875,
+    0.029843340965783303
+   ],
+   "marginal_a0.2_coverage_not_depressed": [
+    0.8639747634069401,
+    0.010829703995520652
+   ],
+   "marginal_a0.2_avg_set_size": [
+    0.957593123209169,
+    0.013478626980370927
+   ],
+   "marginal_a0.2_share_single": [
+    0.957593123209169,
+    0.013478626980370927
+   ],
+   "marginal_a0.2_share_both": [
+    0.0,
+    0.0
+   ],
+   "marginal_a0.2_share_empty": [
+    0.042406876790830945,
+    0.013478626980370922
+   ],
+   "mondrian_a0.2_coverage": [
+    0.794269340974212,
+    0.004303721113012874
+   ],
+   "mondrian_a0.2_coverage_depressed": [
+    0.8299999999999998,
+    0.03147419578003543
+   ],
+   "mondrian_a0.2_coverage_not_depressed": [
+    0.7906624605678234,
+    0.00554918193748796
+   ],
+   "mondrian_a0.2_avg_set_size": [
+    1.5491117478510028,
+    0.029776054312130276
+   ],
+   "mondrian_a0.2_share_single": [
+    0.4508882521489971,
+    0.029776054312130228
+   ],
+   "mondrian_a0.2_share_both": [
+    0.5491117478510029,
+    0.029776054312130238
+   ],
+   "mondrian_a0.2_share_empty": [
+    0.0,
+    0.0
+   ]
+  },
+  "LogReg (rhythm + age, sex)": {
+   "auc": [
+    0.6622145110410095,
+    0.022377893536200327
+   ],
+   "auprc": [
+    0.1783860408748814,
+    0.01679686312601609
+   ],
+   "sensitivity": [
+    0.6275,
+    0.08325412902673354
+   ],
+   "specificity": [
+    0.6132492113564669,
+    0.08048257757129539
+   ],
+   "marginal_a0.1_coverage": [
+    0.8995988538681947,
+    0.004618783193033781
+   ],
+   "marginal_a0.1_coverage_depressed": [
+    0.88375,
+    0.028394541729001375
+   ],
+   "marginal_a0.1_coverage_not_depressed": [
+    0.901198738170347,
+    0.004489702681301493
+   ],
+   "marginal_a0.1_avg_set_size": [
+    1.644813753581662,
+    0.010092469896963389
+   ],
+   "marginal_a0.1_share_single": [
+    0.35518624641833807,
+    0.010092469896963352
+   ],
+   "marginal_a0.1_share_both": [
+    0.6448137535816618,
+    0.010092469896963364
+   ],
+   "marginal_a0.1_share_empty": [
+    0.0,
+    0.0
+   ],
+   "mondrian_a0.1_coverage": [
+    0.8992550143266476,
+    0.005257235503119656
+   ],
+   "mondrian_a0.1_coverage_depressed": [
+    0.8887499999999999,
+    0.06736096792653741
+   ],
+   "mondrian_a0.1_coverage_not_depressed": [
+    0.9003154574132491,
+    0.003192204578087948
+   ],
+   "mondrian_a0.1_avg_set_size": [
+    1.6692263610315188,
+    0.07039283653567521
+   ],
+   "mondrian_a0.1_share_single": [
+    0.33077363896848133,
+    0.07039283653567525
+   ],
+   "mondrian_a0.1_share_both": [
+    0.6692263610315188,
+    0.07039283653567524
+   ],
+   "mondrian_a0.1_share_empty": [
+    0.0,
+    0.0
+   ],
+   "marginal_a0.2_coverage": [
+    0.7950716332378224,
+    0.011624059501210853
+   ],
+   "marginal_a0.2_coverage_depressed": [
+    0.7762499999999999,
+    0.0352225070090134
+   ],
+   "marginal_a0.2_coverage_not_depressed": [
+    0.7969716088328076,
+    0.01077664579068577
+   ],
+   "marginal_a0.2_avg_set_size": [
+    1.364355300859599,
+    0.015211202935329597
+   ],
+   "marginal_a0.2_share_single": [
+    0.6356446991404011,
+    0.015211202935329637
+   ],
+   "marginal_a0.2_share_both": [
+    0.3643553008595989,
+    0.015211202935329612
+   ],
+   "marginal_a0.2_share_empty": [
+    0.0,
+    0.0
+   ],
+   "mondrian_a0.2_coverage": [
+    0.7947277936962751,
+    0.009042101053669238
+   ],
+   "mondrian_a0.2_coverage_depressed": [
+    0.8012499999999999,
+    0.05175060386121115
+   ],
+   "mondrian_a0.2_coverage_not_depressed": [
+    0.7940694006309149,
+    0.006503015130208263
+   ],
+   "mondrian_a0.2_avg_set_size": [
+    1.4110028653295128,
+    0.04295991892681367
+   ],
+   "mondrian_a0.2_share_single": [
+    0.5889971346704872,
+    0.04295991892681372
+   ],
+   "mondrian_a0.2_share_both": [
+    0.4110028653295129,
+    0.04295991892681371
+   ],
+   "mondrian_a0.2_share_empty": [
+    0.0,
+    0.0
+   ]
+  },
+  "GradBoost (rhythm + age, sex)": {
+   "auc": [
+    0.6291064668769717,
+    0.017878554914218744
+   ],
+   "auprc": [
+    0.15279547612465177,
+    0.013572537297209393
+   ],
+   "sensitivity": [
+    0.50375,
+    0.07208935427648108
+   ],
+   "specificity": [
+    0.6900946372239748,
+    0.07581527875534357
+   ],
+   "marginal_a0.1_coverage": [
+    0.899025787965616,
+    0.008991109986225874
+   ],
+   "marginal_a0.1_coverage_depressed": [
+    0.38499999999999995,
+    0.0378318648760539
+   ],
+   "marginal_a0.1_coverage_not_depressed": [
+    0.9509148264984226,
+    0.008672726953912694
+   ],
+   "marginal_a0.1_avg_set_size": [
+    1.1622922636103152,
+    0.013135090528695187
+   ],
+   "marginal_a0.1_share_single": [
+    0.8377077363896849,
+    0.013135090528695176
+   ],
+   "marginal_a0.1_share_both": [
+    0.16229226361031518,
+    0.013135090528695187
+   ],
+   "marginal_a0.1_share_empty": [
+    0.0,
+    0.0
+   ],
+   "mondrian_a0.1_coverage": [
+    0.8940974212034384,
+    0.010544412607449843
+   ],
+   "mondrian_a0.1_coverage_depressed": [
+    0.9125,
+    0.020916500663351868
+   ],
+   "mondrian_a0.1_coverage_not_depressed": [
+    0.8922397476340693,
+    0.011846423443819393
+   ],
+   "mondrian_a0.1_avg_set_size": [
+    1.7347851002865329,
+    0.01805439555911341
+   ],
+   "mondrian_a0.1_share_single": [
+    0.265214899713467,
+    0.018054395559113413
+   ],
+   "mondrian_a0.1_share_both": [
+    0.734785100286533,
+    0.018054395559113444
+   ],
+   "mondrian_a0.1_share_empty": [
+    0.0,
+    0.0
+   ],
+   "marginal_a0.2_coverage": [
+    0.7917478510028653,
+    0.014486670770727735
+   ],
+   "marginal_a0.2_coverage_depressed": [
+    0.18875000000000003,
+    0.03737479096931513
+   ],
+   "marginal_a0.2_coverage_not_depressed": [
+    0.8526182965299685,
+    0.013582117747939097
+   ],
+   "marginal_a0.2_avg_set_size": [
+    0.9303151862464183,
+    0.023276918344743405
+   ],
+   "marginal_a0.2_share_single": [
+    0.9303151862464183,
+    0.023276918344743405
+   ],
+   "marginal_a0.2_share_both": [
+    0.0,
+    0.0
+   ],
+   "marginal_a0.2_share_empty": [
+    0.06968481375358167,
+    0.023276918344743405
+   ],
+   "mondrian_a0.2_coverage": [
+    0.7964469914040114,
+    0.016002397173483226
+   ],
+   "mondrian_a0.2_coverage_depressed": [
+    0.83375,
+    0.024874685927665514
+   ],
+   "mondrian_a0.2_coverage_not_depressed": [
+    0.7926813880126182,
+    0.01745069808451276
+   ],
+   "mondrian_a0.2_avg_set_size": [
+    1.4984527220630373,
+    0.02501194696518847
+   ],
+   "mondrian_a0.2_share_single": [
+    0.5015472779369627,
+    0.02501194696518846
+   ],
+   "mondrian_a0.2_share_both": [
+    0.49845272206303726,
+    0.02501194696518846
+   ],
+   "mondrian_a0.2_share_empty": [
+    0.0,
+    0.0
+   ]
+  },
+  "1-D CNN (activity only)": {
+   "auc": [
+    0.6461719242902209,
+    0.02365155503951486
+   ],
+   "auprc": [
+    0.15972682551023626,
+    0.009153103723192958
+   ],
+   "sensitivity": [
+    0.6837500000000001,
+    0.07033402448317602
+   ],
+   "specificity": [
+    0.503596214511041,
+    0.056343767247793046
+   ],
+   "marginal_a0.1_coverage": [
+    0.9034957020057306,
+    0.009497000566586406
+   ],
+   "marginal_a0.1_coverage_depressed": [
+    0.9275,
+    0.033911649915626334
+   ],
+   "marginal_a0.1_coverage_not_depressed": [
+    0.9010725552050474,
+    0.010215366383853175
+   ],
+   "marginal_a0.1_avg_set_size": [
+    1.711862464183381,
+    0.07596822367574622
+   ],
+   "marginal_a0.1_share_single": [
+    0.2881375358166189,
+    0.07596822367574621
+   ],
+   "marginal_a0.1_share_both": [
+    0.7118624641833811,
+    0.0759682236757462
+   ],
+   "marginal_a0.1_share_empty": [
+    0.0,
+    0.0
+   ],
+   "mondrian_a0.1_coverage": [
+    0.8998280802292262,
+    0.007835720176567203
+   ],
+   "mondrian_a0.1_coverage_depressed": [
+    0.9037499999999999,
+    0.06257495505391915
+   ],
+   "mondrian_a0.1_coverage_not_depressed": [
+    0.8994321766561514,
+    0.009972446591030535
+   ],
+   "mondrian_a0.1_avg_set_size": [
+    1.6795415472779371,
+    0.054817460560622665
+   ],
+   "mondrian_a0.1_share_single": [
+    0.3204584527220631,
+    0.05481746056062262
+   ],
+   "mondrian_a0.1_share_both": [
+    0.6795415472779369,
+    0.05481746056062262
+   ],
+   "mondrian_a0.1_share_empty": [
+    0.0,
+    0.0
+   ],
+   "marginal_a0.2_coverage": [
+    0.7981661891117479,
+    0.010343164857470227
+   ],
+   "marginal_a0.2_coverage_depressed": [
+    0.7949999999999999,
+    0.0768927824961485
+   ],
+   "marginal_a0.2_coverage_not_depressed": [
+    0.7984858044164038,
+    0.011184110943172421
+   ],
+   "marginal_a0.2_avg_set_size": [
+    1.425214899713467,
+    0.08884702569821298
+   ],
+   "marginal_a0.2_share_single": [
+    0.574785100286533,
+    0.08884702569821298
+   ],
+   "marginal_a0.2_share_both": [
+    0.4252148997134671,
+    0.08884702569821298
+   ],
+   "marginal_a0.2_share_empty": [
+    0.0,
+    0.0
+   ],
+   "mondrian_a0.2_coverage": [
+    0.7964469914040115,
+    0.006436731728182895
+   ],
+   "mondrian_a0.2_coverage_depressed": [
+    0.80625,
+    0.09802741963348827
+   ],
+   "mondrian_a0.2_coverage_not_depressed": [
+    0.7954574132492114,
+    0.012013254496314874
+   ],
+   "mondrian_a0.2_avg_set_size": [
+    1.4398853868194845,
+    0.06738007408444832
+   ],
+   "mondrian_a0.2_share_single": [
+    0.5601146131805158,
+    0.06738007408444836
+   ],
+   "mondrian_a0.2_share_both": [
+    0.4398853868194842,
+    0.06738007408444836
+   ],
+   "mondrian_a0.2_share_empty": [
+    0.0,
+    0.0
+   ]
+  }
+ }
+}

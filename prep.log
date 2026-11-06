@@ -1,0 +1,36 @@
+4000 1 s
+8000 2 s
+12000 3 s
+16000 4 s
+20000 5 s
+24000 6 s
+28000 7 s
+32000 8 s
+36000 9 s
+40000 10 s
+44000 11 s
+48000 12 s
+52000 13 s
+56000 14 s
+60000 15 s
+64000 16 s
+68000 17 s
+72000 18 s
+76000 19 s
+80000 20 s
+84000 21 s
+88000 22 s
+92000 23 s
+96000 24 s
+100000 25 s
+104000 26 s
+108000 27 s
+112000 28 s
+116000 29 s
+120000 30 s
+124000 31 s
+128000 32 s
+130186 33 s
+/home/claude/wcg/prep.py:42: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  q["phq9"] = v.sum(1, min_count=9)
+people 8723 depressed (PHQ>=10) 800 0.092 valid days mean 6.86 time 34 s
