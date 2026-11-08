@@ -33,6 +33,24 @@ Guarantee level 90% (α = 0.1). The base rate of PHQ-9 ≥ 10 is 9.2% (800 of 8,
 ![What each person is told](results/fig4_triage.png)
 ![ROC curves](results/fig2_roc.png)
 
+## Extra experiments (paper analyses)
+
+`run_extra.py` uses the same 5 person-level splits. Each 95% CI is a bootstrap over test people (1,000 resamples), with the bounds averaged across splits.
+
+| Model | AUC (mean ± SD) | 95% CI | Depressed coverage, standard | Depressed coverage, class-conditional |
+|---|---|---|---|---|
+| 1-D CNN (activity only) | 0.646 ± 0.024 | 0.600–0.689 | 0.927 | 0.904 |
+| LogReg (rhythm + age, sex) | 0.662 ± 0.022 | 0.617–0.706 | 0.884 | 0.889 |
+| **1-D CNN + age, sex** | **0.681 ± 0.020** | 0.636–0.726 | 0.839 | 0.897 |
+| CNN + LogReg ensemble | 0.680 ± 0.022 | 0.635–0.725 | 0.859 | 0.893 |
+
+1. **Age and sex improve the CNN.** They enter the CNN as two extra constant input channels, which raises its AUC from 0.646 to 0.681. That beats the best feature-based model (0.662), though the confidence intervals overlap.
+2. **The guarantee holds at every level.** At 80%, 90% and 95%, overall coverage was 0.80, 0.90 and 0.95. Class-conditional calibration kept depressed-person coverage at the target each time (0.80, 0.90, 0.95), while standard calibration fell short for the CNN + age, sex model (0.71, 0.84, 0.92).
+3. **New finding: adding demographics breaks fairness by sex.** With class-conditional calibration, the CNN + age, sex model covered only **74% of depressed men**, against 98% of depressed women. The activity-only CNN was balanced (89% vs 91%). Calibrating separately for each sex × class pair brings depressed men back to 87% and women to 94%, with only slightly fewer confident answers (31% vs 33%). There are about 56 depressed men per test split, so these subgroup numbers are noisy.
+4. **A simple "unsure near 50%" rule** was tuned to abstain as often as conformal does. It covered 87% of depressed people, versus 90% for class-conditional conformal. It also comes with no guarantee, and its coverage cannot be set in advance.
+
+![Depressed coverage by subgroup](results/fig5_subgroup_coverage.png)
+
 ## The method
 
 **Data.** Minute-level wrist activity counts (NHANES 2011–2014), demographics (DEMO_G, DEMO_H) and the PHQ-9 questionnaire (DPQ_G, DPQ_H). A day counts if the device was worn for at least 10 hours; non-wear is any run of 60 or more zero minutes; each person needs at least 4 valid days. Activity is log-transformed and averaged into 144 ten-minute bins per day.
@@ -54,6 +72,7 @@ Computing q̂ separately within each true class (Mondrian conformal) gives P(Y �
 pip install -r requirements.txt
 python prep.py /path/to/nhanes_folder   # needs nhanes_1440_AC.csv.xz, DEMO_G/H.xpt, DPQ_G/H.xpt
 python run_experiments.py               # about 6 minutes on a laptop CPU
+python build_inputs.py && python run_extra.py && python make_fig_extra.py   # extra analyses, about 13 minutes
 python make_figures.py
 python -m pytest -q tests               # coverage simulation + CNN gradient check
 ```

@@ -1,0 +1,4068 @@
+{
+ "n_people": 8723,
+ "n_depressed": 800,
+ "splits": {
+  "cnn_demo": [
+   {
+    "auc": 0.7150315457413249,
+    "auc_ci": [
+     0.6699687484454574,
+     0.7576044465693522
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9484240687679083,
+     "coverage_depressed": 0.9625,
+     "coverage_not_depressed": 0.9470031545741325,
+     "avg_set_size": 1.825214899713467,
+     "share_single": 0.17478510028653296,
+     "share_both": 0.8252148997134671,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9489971346704871,
+     "coverage_depressed": 0.95625,
+     "coverage_not_depressed": 0.9482649842271293,
+     "avg_set_size": 1.8177650429799428,
+     "share_single": 0.18223495702005732,
+     "share_both": 0.8177650429799427,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.9065902578796562,
+     "coverage_depressed": 0.9,
+     "coverage_not_depressed": 0.9072555205047319,
+     "avg_set_size": 1.6865329512893983,
+     "share_single": 0.3134670487106017,
+     "share_both": 0.6865329512893983,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8524493161315355,
+      0.9447852760736196
+     ],
+     "cov_ci": [
+      0.8922492836676217,
+      0.9186246418338109
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.907163323782235,
+     "coverage_depressed": 0.91875,
+     "coverage_not_depressed": 0.905993690851735,
+     "avg_set_size": 1.7037249283667621,
+     "share_single": 0.2962750716332378,
+     "share_both": 0.7037249283667621,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.875,
+      0.9552286339005609
+     ],
+     "cov_ci": [
+      0.8928366762177651,
+      0.9214899713467049
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9757785467128027,
+       "coverage_depressed": 0.7755102040816326,
+       "n": 867,
+       "n_dep": 49
+      },
+      "women": {
+       "coverage": 0.8394077448747153,
+       "coverage_depressed": 0.9819819819819819,
+       "n": 878,
+       "n_dep": 111
+      },
+      "age 18-39": {
+       "coverage": 0.9516380655226209,
+       "coverage_depressed": 0.9,
+       "n": 641,
+       "n_dep": 40
+      },
+      "age 40-59": {
+       "coverage": 0.8210116731517509,
+       "coverage_depressed": 0.9666666666666667,
+       "n": 514,
+       "n_dep": 60
+      },
+      "age 60+": {
+       "coverage": 0.9338983050847458,
+       "coverage_depressed": 0.8833333333333333,
+       "n": 590,
+       "n_dep": 60
+      },
+      "2011-12": {
+       "coverage": 0.9117997616209773,
+       "coverage_depressed": 0.9166666666666666,
+       "n": 839,
+       "n_dep": 72
+      },
+      "2013-14": {
+       "coverage": 0.9028697571743929,
+       "coverage_depressed": 0.9204545454545454,
+       "n": 906,
+       "n_dep": 88
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.9106017191977077,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.9078864353312303,
+     "avg_set_size": 1.7146131805157594,
+     "share_single": 0.28538681948424066,
+     "share_both": 0.7146131805157593,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.9215686274509803,
+       "coverage_depressed": 0.8979591836734694
+      },
+      "women": {
+       "coverage": 0.8997722095671982,
+       "coverage_depressed": 0.954954954954955
+      },
+      "age 18-39": {
+       "coverage": 0.9453978159126365,
+       "coverage_depressed": 0.85
+      },
+      "age 40-59": {
+       "coverage": 0.8365758754863813,
+       "coverage_depressed": 0.9666666666666667
+      },
+      "age 60+": {
+       "coverage": 0.9372881355932203,
+       "coverage_depressed": 0.9666666666666667
+      },
+      "2011-12": {
+       "coverage": 0.9165673420738975,
+       "coverage_depressed": 0.9305555555555556
+      },
+      "2013-14": {
+       "coverage": 0.9050772626931567,
+       "coverage_depressed": 0.9431818181818182
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9100286532951289,
+     "coverage_depressed": 0.90625,
+     "coverage_not_depressed": 0.910410094637224,
+     "avg_set_size": 1.7008595988538682,
+     "share_single": 0.29914040114613183,
+     "share_both": 0.7008595988538682,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.8189111747851003,
+     "coverage_depressed": 0.84375,
+     "coverage_not_depressed": 0.816403785488959,
+     "avg_set_size": 1.4120343839541547,
+     "share_single": 0.5879656160458453,
+     "share_both": 0.4120343839541547,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.8131805157593123,
+     "coverage_depressed": 0.86875,
+     "coverage_not_depressed": 0.807570977917981,
+     "avg_set_size": 1.492836676217765,
+     "share_single": 0.5071633237822349,
+     "share_both": 0.49283667621776506,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6850867507886436,
+    "auc_ci": [
+     0.6413604385877901,
+     0.7308226022331019
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9507163323782235,
+     "coverage_depressed": 0.91875,
+     "coverage_not_depressed": 0.9539432176656152,
+     "avg_set_size": 1.7833810888252148,
+     "share_single": 0.2166189111747851,
+     "share_both": 0.783381088825215,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9535816618911175,
+     "coverage_depressed": 0.95,
+     "coverage_not_depressed": 0.9539432176656152,
+     "avg_set_size": 1.8412607449856733,
+     "share_single": 0.15873925501432665,
+     "share_both": 0.8412607449856734,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.907163323782235,
+     "coverage_depressed": 0.85625,
+     "coverage_not_depressed": 0.9123028391167193,
+     "avg_set_size": 1.6246418338108883,
+     "share_single": 0.3753581661891118,
+     "share_both": 0.6246418338108882,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.7999704142011834,
+      0.9066950354609928
+     ],
+     "cov_ci": [
+      0.8928366762177651,
+      0.9203438395415473
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.9077363896848137,
+     "coverage_depressed": 0.9125,
+     "coverage_not_depressed": 0.9072555205047319,
+     "avg_set_size": 1.7106017191977076,
+     "share_single": 0.28939828080229224,
+     "share_both": 0.7106017191977078,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.864516129032258,
+      0.9531272843567251
+     ],
+     "cov_ci": [
+      0.8934097421203439,
+      0.9214899713467049
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9371221281741233,
+       "coverage_depressed": 0.7407407407407407,
+       "n": 827,
+       "n_dep": 54
+      },
+      "women": {
+       "coverage": 0.8812636165577342,
+       "coverage_depressed": 1.0,
+       "n": 918,
+       "n_dep": 106
+      },
+      "age 18-39": {
+       "coverage": 0.9627228525121556,
+       "coverage_depressed": 0.9285714285714286,
+       "n": 617,
+       "n_dep": 42
+      },
+      "age 40-59": {
+       "coverage": 0.803886925795053,
+       "coverage_depressed": 0.8888888888888888,
+       "n": 566,
+       "n_dep": 63
+      },
+      "age 60+": {
+       "coverage": 0.9519572953736655,
+       "coverage_depressed": 0.9272727272727272,
+       "n": 562,
+       "n_dep": 55
+      },
+      "2011-12": {
+       "coverage": 0.9232531500572738,
+       "coverage_depressed": 0.922077922077922,
+       "n": 873,
+       "n_dep": 77
+      },
+      "2013-14": {
+       "coverage": 0.8922018348623854,
+       "coverage_depressed": 0.9036144578313253,
+       "n": 872,
+       "n_dep": 83
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.9140401146131805,
+     "coverage_depressed": 0.95,
+     "coverage_not_depressed": 0.910410094637224,
+     "avg_set_size": 1.755300859598854,
+     "share_single": 0.24469914040114613,
+     "share_both": 0.7553008595988538,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.9044740024183797,
+       "coverage_depressed": 0.8518518518518519
+      },
+      "women": {
+       "coverage": 0.9226579520697168,
+       "coverage_depressed": 1.0
+      },
+      "age 18-39": {
+       "coverage": 0.9773095623987034,
+       "coverage_depressed": 0.9523809523809523
+      },
+      "age 40-59": {
+       "coverage": 0.8162544169611308,
+       "coverage_depressed": 0.9047619047619048
+      },
+      "age 60+": {
+       "coverage": 0.9430604982206405,
+       "coverage_depressed": 1.0
+      },
+      "2011-12": {
+       "coverage": 0.9243986254295533,
+       "coverage_depressed": 0.948051948051948
+      },
+      "2013-14": {
+       "coverage": 0.9036697247706422,
+       "coverage_depressed": 0.9518072289156626
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9335243553008596,
+     "coverage_depressed": 0.88125,
+     "coverage_not_depressed": 0.938801261829653,
+     "avg_set_size": 1.7191977077363896,
+     "share_single": 0.2808022922636103,
+     "share_both": 0.7191977077363897,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.8166189111747851,
+     "coverage_depressed": 0.74375,
+     "coverage_not_depressed": 0.8239747634069401,
+     "avg_set_size": 1.3025787965616047,
+     "share_single": 0.6974212034383954,
+     "share_both": 0.3025787965616046,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.8206303724928367,
+     "coverage_depressed": 0.85,
+     "coverage_not_depressed": 0.8176656151419558,
+     "avg_set_size": 1.487106017191977,
+     "share_single": 0.5128939828080229,
+     "share_both": 0.4871060171919771,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6774684542586751,
+    "auc_ci": [
+     0.6347644283676243,
+     0.7192413965662082
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9318051575931232,
+     "coverage_depressed": 0.9,
+     "coverage_not_depressed": 0.9350157728706625,
+     "avg_set_size": 1.7134670487106016,
+     "share_single": 0.28653295128939826,
+     "share_both": 0.7134670487106017,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9300859598853868,
+     "coverage_depressed": 0.9625,
+     "coverage_not_depressed": 0.9268138801261829,
+     "avg_set_size": 1.7891117478510028,
+     "share_single": 0.21088825214899715,
+     "share_both": 0.7891117478510029,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.8842406876790831,
+     "coverage_depressed": 0.8,
+     "coverage_not_depressed": 0.8927444794952681,
+     "avg_set_size": 1.515186246418338,
+     "share_single": 0.4848137535816619,
+     "share_both": 0.5151862464183381,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.7375,
+      0.8580834914611005
+     ],
+     "cov_ci": [
+      0.8699140401146132,
+      0.8991404011461318
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.8871060171919771,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.8820189274447949,
+     "avg_set_size": 1.707163323782235,
+     "share_single": 0.29283667621776505,
+     "share_both": 0.707163323782235,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8979417109309478,
+      0.9708134222548969
+     ],
+     "cov_ci": [
+      0.8722063037249284,
+      0.9014469914040115
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9563679245283019,
+       "coverage_depressed": 0.8360655737704918,
+       "n": 848,
+       "n_dep": 61
+      },
+      "women": {
+       "coverage": 0.8216276477146043,
+       "coverage_depressed": 1.0,
+       "n": 897,
+       "n_dep": 99
+      },
+      "age 18-39": {
+       "coverage": 0.9469453376205788,
+       "coverage_depressed": 0.8545454545454545,
+       "n": 622,
+       "n_dep": 55
+      },
+      "age 40-59": {
+       "coverage": 0.8454545454545455,
+       "coverage_depressed": 1.0,
+       "n": 550,
+       "n_dep": 60
+      },
+      "age 60+": {
+       "coverage": 0.8621291448516579,
+       "coverage_depressed": 0.9555555555555556,
+       "n": 573,
+       "n_dep": 45
+      },
+      "2011-12": {
+       "coverage": 0.8900836320191159,
+       "coverage_depressed": 0.9487179487179487,
+       "n": 837,
+       "n_dep": 78
+      },
+      "2013-14": {
+       "coverage": 0.8843612334801763,
+       "coverage_depressed": 0.926829268292683,
+       "n": 908,
+       "n_dep": 82
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.8899713467048711,
+     "coverage_depressed": 0.95,
+     "coverage_not_depressed": 0.8839116719242902,
+     "avg_set_size": 1.6825214899713468,
+     "share_single": 0.3174785100286533,
+     "share_both": 0.6825214899713467,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.9068396226415094,
+       "coverage_depressed": 0.9180327868852459
+      },
+      "women": {
+       "coverage": 0.8740245261984393,
+       "coverage_depressed": 0.9696969696969697
+      },
+      "age 18-39": {
+       "coverage": 0.9662379421221865,
+       "coverage_depressed": 0.9272727272727272
+      },
+      "age 40-59": {
+       "coverage": 0.84,
+       "coverage_depressed": 0.9833333333333333
+      },
+      "age 60+": {
+       "coverage": 0.8551483420593369,
+       "coverage_depressed": 0.9333333333333333
+      },
+      "2011-12": {
+       "coverage": 0.8876941457586619,
+       "coverage_depressed": 0.9743589743589743
+      },
+      "2013-14": {
+       "coverage": 0.8920704845814978,
+       "coverage_depressed": 0.926829268292683
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9277936962750717,
+     "coverage_depressed": 0.875,
+     "coverage_not_depressed": 0.9331230283911672,
+     "avg_set_size": 1.6962750716332378,
+     "share_single": 0.3037249283667622,
+     "share_both": 0.6962750716332379,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.7822349570200573,
+     "coverage_depressed": 0.70625,
+     "coverage_not_depressed": 0.7899053627760252,
+     "avg_set_size": 1.2240687679083095,
+     "share_single": 0.7759312320916906,
+     "share_both": 0.22406876790830946,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.783381088825215,
+     "coverage_depressed": 0.775,
+     "coverage_not_depressed": 0.7842271293375395,
+     "avg_set_size": 1.3616045845272207,
+     "share_single": 0.6383954154727793,
+     "share_both": 0.3616045845272206,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6769637223974764,
+    "auc_ci": [
+     0.6299764635628005,
+     0.722697651713828
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9501432664756447,
+     "coverage_depressed": 0.89375,
+     "coverage_not_depressed": 0.9558359621451105,
+     "avg_set_size": 1.718051575931232,
+     "share_single": 0.2819484240687679,
+     "share_both": 0.7180515759312321,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9530085959885387,
+     "coverage_depressed": 0.94375,
+     "coverage_not_depressed": 0.9539432176656152,
+     "avg_set_size": 1.7736389684813754,
+     "share_single": 0.22636103151862463,
+     "share_both": 0.7736389684813754,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.9077363896848137,
+     "coverage_depressed": 0.775,
+     "coverage_not_depressed": 0.9211356466876972,
+     "avg_set_size": 1.4595988538681948,
+     "share_single": 0.5404011461318051,
+     "share_both": 0.4595988538681948,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.698744656043529,
+      0.838935162991371
+     ],
+     "cov_ci": [
+      0.8939828080229226,
+      0.9203438395415473
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.8922636103151862,
+     "coverage_depressed": 0.84375,
+     "coverage_not_depressed": 0.897160883280757,
+     "avg_set_size": 1.5822349570200573,
+     "share_single": 0.4177650429799427,
+     "share_both": 0.5822349570200573,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.7846987612612613,
+      0.8975995820014753
+     ],
+     "cov_ci": [
+      0.8767908309455588,
+      0.9065902578796562
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9363207547169812,
+       "coverage_depressed": 0.6226415094339622,
+       "n": 848,
+       "n_dep": 53
+      },
+      "women": {
+       "coverage": 0.850613154960981,
+       "coverage_depressed": 0.9532710280373832,
+       "n": 897,
+       "n_dep": 107
+      },
+      "age 18-39": {
+       "coverage": 0.9289099526066351,
+       "coverage_depressed": 0.6956521739130435,
+       "n": 633,
+       "n_dep": 46
+      },
+      "age 40-59": {
+       "coverage": 0.8330373001776199,
+       "coverage_depressed": 0.9384615384615385,
+       "n": 563,
+       "n_dep": 65
+      },
+      "age 60+": {
+       "coverage": 0.9107468123861566,
+       "coverage_depressed": 0.8571428571428571,
+       "n": 549,
+       "n_dep": 49
+      },
+      "2011-12": {
+       "coverage": 0.8824242424242424,
+       "coverage_depressed": 0.8676470588235294,
+       "n": 825,
+       "n_dep": 68
+      },
+      "2013-14": {
+       "coverage": 0.9010869565217391,
+       "coverage_depressed": 0.8260869565217391,
+       "n": 920,
+       "n_dep": 92
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.9163323782234957,
+     "coverage_depressed": 0.86875,
+     "coverage_not_depressed": 0.9211356466876972,
+     "avg_set_size": 1.665329512893983,
+     "share_single": 0.3346704871060172,
+     "share_both": 0.6653295128939828,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.9209905660377359,
+       "coverage_depressed": 0.8301886792452831
+      },
+      "women": {
+       "coverage": 0.9119286510590858,
+       "coverage_depressed": 0.8878504672897196
+      },
+      "age 18-39": {
+       "coverage": 0.957345971563981,
+       "coverage_depressed": 0.717391304347826
+      },
+      "age 40-59": {
+       "coverage": 0.8561278863232682,
+       "coverage_depressed": 0.9846153846153847
+      },
+      "age 60+": {
+       "coverage": 0.930783242258652,
+       "coverage_depressed": 0.8571428571428571
+      },
+      "2011-12": {
+       "coverage": 0.9163636363636364,
+       "coverage_depressed": 0.9117647058823529
+      },
+      "2013-14": {
+       "coverage": 0.9163043478260869,
+       "coverage_depressed": 0.8369565217391305
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9306590257879657,
+     "coverage_depressed": 0.825,
+     "coverage_not_depressed": 0.9413249211356467,
+     "avg_set_size": 1.58567335243553,
+     "share_single": 0.4143266475644699,
+     "share_both": 0.5856733524355301,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.7925501432664757,
+     "coverage_depressed": 0.55625,
+     "coverage_not_depressed": 0.816403785488959,
+     "avg_set_size": 1.1386819484240687,
+     "share_single": 0.8613180515759312,
+     "share_both": 0.13868194842406878,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.7971346704871061,
+     "coverage_depressed": 0.79375,
+     "coverage_not_depressed": 0.7974763406940063,
+     "avg_set_size": 1.363323782234957,
+     "share_single": 0.636676217765043,
+     "share_both": 0.36332378223495704,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6514037854889589,
+    "auc_ci": [
+     0.6058034026952694,
+     0.6998425673390066
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9461318051575931,
+     "coverage_depressed": 0.94375,
+     "coverage_not_depressed": 0.9463722397476341,
+     "avg_set_size": 1.836676217765043,
+     "share_single": 0.16332378223495703,
+     "share_both": 0.836676217765043,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9455587392550143,
+     "coverage_depressed": 0.925,
+     "coverage_not_depressed": 0.9476340694006309,
+     "avg_set_size": 1.7959885386819485,
+     "share_single": 0.20401146131805156,
+     "share_both": 0.7959885386819484,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.8888252148997134,
+     "coverage_depressed": 0.8625,
+     "coverage_not_depressed": 0.8914826498422713,
+     "avg_set_size": 1.6395415472779369,
+     "share_single": 0.36045845272206306,
+     "share_both": 0.639541547277937,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8092476041983572,
+      0.9096385542168675
+     ],
+     "cov_ci": [
+      0.8739111747851003,
+      0.9037392550143267
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.8888252148997134,
+     "coverage_depressed": 0.875,
+     "coverage_not_depressed": 0.8902208201892744,
+     "avg_set_size": 1.6441260744985673,
+     "share_single": 0.35587392550143265,
+     "share_both": 0.6441260744985673,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8238993710691824,
+      0.9225816052227342
+     ],
+     "cov_ci": [
+      0.8739255014326648,
+      0.9031661891117478
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9405339805825242,
+       "coverage_depressed": 0.7301587301587301,
+       "n": 824,
+       "n_dep": 63
+      },
+      "women": {
+       "coverage": 0.8425624321389794,
+       "coverage_depressed": 0.9690721649484536,
+       "n": 921,
+       "n_dep": 97
+      },
+      "age 18-39": {
+       "coverage": 0.9525368248772504,
+       "coverage_depressed": 0.7380952380952381,
+       "n": 611,
+       "n_dep": 42
+      },
+      "age 40-59": {
+       "coverage": 0.7975133214920072,
+       "coverage_depressed": 0.9411764705882353,
+       "n": 563,
+       "n_dep": 68
+      },
+      "age 60+": {
+       "coverage": 0.9106830122591943,
+       "coverage_depressed": 0.9,
+       "n": 571,
+       "n_dep": 50
+      },
+      "2011-12": {
+       "coverage": 0.8926886792452831,
+       "coverage_depressed": 0.9041095890410958,
+       "n": 848,
+       "n_dep": 73
+      },
+      "2013-14": {
+       "coverage": 0.8851727982162765,
+       "coverage_depressed": 0.8505747126436781,
+       "n": 897,
+       "n_dep": 87
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.8905444126074499,
+     "coverage_depressed": 0.8625,
+     "coverage_not_depressed": 0.8933753943217666,
+     "avg_set_size": 1.6469914040114613,
+     "share_single": 0.3530085959885387,
+     "share_both": 0.6469914040114613,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.883495145631068,
+       "coverage_depressed": 0.8412698412698413
+      },
+      "women": {
+       "coverage": 0.8968512486427795,
+       "coverage_depressed": 0.8762886597938144
+      },
+      "age 18-39": {
+       "coverage": 0.955810147299509,
+       "coverage_depressed": 0.7380952380952381
+      },
+      "age 40-59": {
+       "coverage": 0.8312611012433393,
+       "coverage_depressed": 0.9558823529411765
+      },
+      "age 60+": {
+       "coverage": 0.8791593695271454,
+       "coverage_depressed": 0.84
+      },
+      "2011-12": {
+       "coverage": 0.8985849056603774,
+       "coverage_depressed": 0.8767123287671232
+      },
+      "2013-14": {
+       "coverage": 0.882943143812709,
+       "coverage_depressed": 0.8505747126436781
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.8934097421203439,
+     "coverage_depressed": 0.875,
+     "coverage_not_depressed": 0.8952681388012619,
+     "avg_set_size": 1.6487106017191977,
+     "share_single": 0.3512893982808023,
+     "share_both": 0.6487106017191977,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.7747851002865329,
+     "coverage_depressed": 0.70625,
+     "coverage_not_depressed": 0.7817034700315457,
+     "avg_set_size": 1.278510028653295,
+     "share_single": 0.7214899713467049,
+     "share_both": 0.2785100286532951,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.7684813753581662,
+     "coverage_depressed": 0.73125,
+     "coverage_not_depressed": 0.7722397476340694,
+     "avg_set_size": 1.3146131805157593,
+     "share_single": 0.6853868194842407,
+     "share_both": 0.3146131805157593,
+     "share_empty": 0.0
+    }
+   }
+  ],
+  "ensemble": [
+   {
+    "auc": 0.7013288643533124,
+    "auc_ci": [
+     0.6595186856988416,
+     0.7445391276785086
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9530085959885387,
+     "coverage_depressed": 0.95625,
+     "coverage_not_depressed": 0.9526813880126183,
+     "avg_set_size": 1.8315186246418338,
+     "share_single": 0.16848137535816618,
+     "share_both": 0.8315186246418338,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9541547277936963,
+     "coverage_depressed": 0.96875,
+     "coverage_not_depressed": 0.9526813880126183,
+     "avg_set_size": 1.8406876790830946,
+     "share_single": 0.15931232091690545,
+     "share_both": 0.8406876790830946,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.9094555873925502,
+     "coverage_depressed": 0.90625,
+     "coverage_not_depressed": 0.9097791798107255,
+     "avg_set_size": 1.6613180515759312,
+     "share_single": 0.3386819484240688,
+     "share_both": 0.6613180515759313,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8601331789229878,
+      0.9461077844311377
+     ],
+     "cov_ci": [
+      0.8957020057306591,
+      0.9226361031518625
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.9088825214899714,
+     "coverage_depressed": 0.93125,
+     "coverage_not_depressed": 0.9066246056782334,
+     "avg_set_size": 1.6939828080229227,
+     "share_single": 0.3060171919770774,
+     "share_both": 0.6939828080229227,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8950536062378167,
+      0.9689958369221935
+     ],
+     "cov_ci": [
+      0.8951289398280803,
+      0.922650429799427
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9734717416378316,
+       "coverage_depressed": 0.7755102040816326,
+       "n": 867,
+       "n_dep": 49
+      },
+      "women": {
+       "coverage": 0.8451025056947609,
+       "coverage_depressed": 1.0,
+       "n": 878,
+       "n_dep": 111
+      },
+      "age 18-39": {
+       "coverage": 0.9407176287051482,
+       "coverage_depressed": 0.925,
+       "n": 641,
+       "n_dep": 40
+      },
+      "age 40-59": {
+       "coverage": 0.8754863813229572,
+       "coverage_depressed": 0.95,
+       "n": 514,
+       "n_dep": 60
+      },
+      "age 60+": {
+       "coverage": 0.9033898305084745,
+       "coverage_depressed": 0.9166666666666666,
+       "n": 590,
+       "n_dep": 60
+      },
+      "2011-12": {
+       "coverage": 0.9094159713945172,
+       "coverage_depressed": 0.9305555555555556,
+       "n": 839,
+       "n_dep": 72
+      },
+      "2013-14": {
+       "coverage": 0.9083885209713024,
+       "coverage_depressed": 0.9318181818181818,
+       "n": 906,
+       "n_dep": 88
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.9094555873925502,
+     "coverage_depressed": 0.93125,
+     "coverage_not_depressed": 0.9072555205047319,
+     "avg_set_size": 1.749570200573066,
+     "share_single": 0.2504297994269341,
+     "share_both": 0.7495702005730659,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.9158016147635525,
+       "coverage_depressed": 0.9183673469387755
+      },
+      "women": {
+       "coverage": 0.9031890660592256,
+       "coverage_depressed": 0.9369369369369369
+      },
+      "age 18-39": {
+       "coverage": 0.9407176287051482,
+       "coverage_depressed": 0.825
+      },
+      "age 40-59": {
+       "coverage": 0.867704280155642,
+       "coverage_depressed": 0.9666666666666667
+      },
+      "age 60+": {
+       "coverage": 0.911864406779661,
+       "coverage_depressed": 0.9666666666666667
+      },
+      "2011-12": {
+       "coverage": 0.9201430274135876,
+       "coverage_depressed": 0.9166666666666666
+      },
+      "2013-14": {
+       "coverage": 0.8995584988962473,
+       "coverage_depressed": 0.9431818181818182
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9232091690544413,
+     "coverage_depressed": 0.9125,
+     "coverage_not_depressed": 0.9242902208201893,
+     "avg_set_size": 1.6922636103151862,
+     "share_single": 0.30773638968481376,
+     "share_both": 0.6922636103151862,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.8126074498567335,
+     "coverage_depressed": 0.79375,
+     "coverage_not_depressed": 0.8145110410094637,
+     "avg_set_size": 1.3891117478510029,
+     "share_single": 0.6108882521489971,
+     "share_both": 0.3891117478510029,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.8148997134670487,
+     "coverage_depressed": 0.8375,
+     "coverage_not_depressed": 0.8126182965299684,
+     "avg_set_size": 1.4515759312320917,
+     "share_single": 0.5484240687679083,
+     "share_both": 0.45157593123209167,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6920347003154574,
+    "auc_ci": [
+     0.641863878298185,
+     0.7360658461156133
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9495702005730658,
+     "coverage_depressed": 0.90625,
+     "coverage_not_depressed": 0.9539432176656152,
+     "avg_set_size": 1.761031518624642,
+     "share_single": 0.23896848137535817,
+     "share_both": 0.7610315186246418,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9512893982808023,
+     "coverage_depressed": 0.95,
+     "coverage_not_depressed": 0.9514195583596214,
+     "avg_set_size": 1.836676217765043,
+     "share_single": 0.16332378223495703,
+     "share_both": 0.836676217765043,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.9048710601719198,
+     "coverage_depressed": 0.84375,
+     "coverage_not_depressed": 0.9110410094637224,
+     "avg_set_size": 1.5994269340974212,
+     "share_single": 0.4005730659025788,
+     "share_both": 0.5994269340974212,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.7820820275241858,
+      0.9006346598295537
+     ],
+     "cov_ci": [
+      0.8905444126074499,
+      0.9180515759312321
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.9060171919770774,
+     "coverage_depressed": 0.91875,
+     "coverage_not_depressed": 0.9047318611987382,
+     "avg_set_size": 1.7283667621776504,
+     "share_single": 0.27163323782234955,
+     "share_both": 0.7283667621776504,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8766032170443935,
+      0.959352340145023
+     ],
+     "cov_ci": [
+      0.8916905444126074,
+      0.9197707736389685
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9431680773881499,
+       "coverage_depressed": 0.7592592592592593,
+       "n": 827,
+       "n_dep": 54
+      },
+      "women": {
+       "coverage": 0.8725490196078431,
+       "coverage_depressed": 1.0,
+       "n": 918,
+       "n_dep": 106
+      },
+      "age 18-39": {
+       "coverage": 0.9448946515397083,
+       "coverage_depressed": 0.9047619047619048,
+       "n": 617,
+       "n_dep": 42
+      },
+      "age 40-59": {
+       "coverage": 0.8586572438162544,
+       "coverage_depressed": 0.9206349206349206,
+       "n": 566,
+       "n_dep": 63
+      },
+      "age 60+": {
+       "coverage": 0.9110320284697508,
+       "coverage_depressed": 0.9272727272727272,
+       "n": 562,
+       "n_dep": 55
+      },
+      "2011-12": {
+       "coverage": 0.9175257731958762,
+       "coverage_depressed": 0.922077922077922,
+       "n": 873,
+       "n_dep": 77
+      },
+      "2013-14": {
+       "coverage": 0.8944954128440367,
+       "coverage_depressed": 0.9156626506024096,
+       "n": 872,
+       "n_dep": 83
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.9123209169054441,
+     "coverage_depressed": 0.9625,
+     "coverage_not_depressed": 0.9072555205047319,
+     "avg_set_size": 1.7787965616045844,
+     "share_single": 0.22120343839541548,
+     "share_both": 0.7787965616045845,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.9032648125755743,
+       "coverage_depressed": 0.8888888888888888
+      },
+      "women": {
+       "coverage": 0.920479302832244,
+       "coverage_depressed": 1.0
+      },
+      "age 18-39": {
+       "coverage": 0.946515397082658,
+       "coverage_depressed": 0.9523809523809523
+      },
+      "age 40-59": {
+       "coverage": 0.8639575971731449,
+       "coverage_depressed": 0.9682539682539683
+      },
+      "age 60+": {
+       "coverage": 0.9234875444839857,
+       "coverage_depressed": 0.9636363636363636
+      },
+      "2011-12": {
+       "coverage": 0.9232531500572738,
+       "coverage_depressed": 0.961038961038961
+      },
+      "2013-14": {
+       "coverage": 0.9013761467889908,
+       "coverage_depressed": 0.963855421686747
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9398280802292264,
+     "coverage_depressed": 0.89375,
+     "coverage_not_depressed": 0.9444794952681388,
+     "avg_set_size": 1.7272206303724928,
+     "share_single": 0.27277936962750715,
+     "share_both": 0.7272206303724928,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.802865329512894,
+     "coverage_depressed": 0.76875,
+     "coverage_not_depressed": 0.8063091482649842,
+     "avg_set_size": 1.3060171919770773,
+     "share_single": 0.6939828080229227,
+     "share_both": 0.3060171919770774,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.7977077363896848,
+     "coverage_depressed": 0.83125,
+     "coverage_not_depressed": 0.7943217665615142,
+     "avg_set_size": 1.428080229226361,
+     "share_single": 0.571919770773639,
+     "share_both": 0.428080229226361,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.681301261829653,
+    "auc_ci": [
+     0.6367446127891514,
+     0.7281168493325545
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9444126074498568,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.9451104100946373,
+     "avg_set_size": 1.7398280802292263,
+     "share_single": 0.26017191977077364,
+     "share_both": 0.7398280802292264,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9375358166189112,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.9375394321766561,
+     "avg_set_size": 1.7925501432664757,
+     "share_single": 0.20744985673352437,
+     "share_both": 0.7925501432664757,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.8905444126074499,
+     "coverage_depressed": 0.8625,
+     "coverage_not_depressed": 0.8933753943217666,
+     "avg_set_size": 1.5558739255014327,
+     "share_single": 0.44412607449856734,
+     "share_both": 0.5558739255014327,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8076863354037267,
+      0.9150356506238859
+     ],
+     "cov_ci": [
+      0.87621776504298,
+      0.9054441260744985
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.8939828080229226,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.889589905362776,
+     "avg_set_size": 1.6710601719197709,
+     "share_single": 0.3289398280802292,
+     "share_both": 0.6710601719197707,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8939313346228239,
+      0.9705882352941176
+     ],
+     "cov_ci": [
+      0.879083094555874,
+      0.9077363896848137
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9587264150943396,
+       "coverage_depressed": 0.8360655737704918,
+       "n": 848,
+       "n_dep": 61
+      },
+      "women": {
+       "coverage": 0.8327759197324415,
+       "coverage_depressed": 1.0,
+       "n": 897,
+       "n_dep": 99
+      },
+      "age 18-39": {
+       "coverage": 0.9469453376205788,
+       "coverage_depressed": 0.8363636363636363,
+       "n": 622,
+       "n_dep": 55
+      },
+      "age 40-59": {
+       "coverage": 0.8727272727272727,
+       "coverage_depressed": 1.0,
+       "n": 550,
+       "n_dep": 60
+      },
+      "age 60+": {
+       "coverage": 0.8568935427574171,
+       "coverage_depressed": 0.9777777777777777,
+       "n": 573,
+       "n_dep": 45
+      },
+      "2011-12": {
+       "coverage": 0.8948626045400239,
+       "coverage_depressed": 0.9358974358974359,
+       "n": 837,
+       "n_dep": 78
+      },
+      "2013-14": {
+       "coverage": 0.8931718061674009,
+       "coverage_depressed": 0.9390243902439024,
+       "n": 908,
+       "n_dep": 82
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.8922636103151862,
+     "coverage_depressed": 0.94375,
+     "coverage_not_depressed": 0.8870662460567823,
+     "avg_set_size": 1.7272206303724928,
+     "share_single": 0.27277936962750715,
+     "share_both": 0.7272206303724928,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.902122641509434,
+       "coverage_depressed": 0.9344262295081968
+      },
+      "women": {
+       "coverage": 0.882943143812709,
+       "coverage_depressed": 0.9494949494949495
+      },
+      "age 18-39": {
+       "coverage": 0.9469453376205788,
+       "coverage_depressed": 0.8909090909090909
+      },
+      "age 40-59": {
+       "coverage": 0.8836363636363637,
+       "coverage_depressed": 0.9833333333333333
+      },
+      "age 60+": {
+       "coverage": 0.8411867364746946,
+       "coverage_depressed": 0.9555555555555556
+      },
+      "2011-12": {
+       "coverage": 0.8864994026284349,
+       "coverage_depressed": 0.9615384615384616
+      },
+      "2013-14": {
+       "coverage": 0.8975770925110133,
+       "coverage_depressed": 0.926829268292683
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9255014326647565,
+     "coverage_depressed": 0.91875,
+     "coverage_not_depressed": 0.9261829652996846,
+     "avg_set_size": 1.6722063037249284,
+     "share_single": 0.32779369627507166,
+     "share_both": 0.6722063037249284,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.7919770773638969,
+     "coverage_depressed": 0.7375,
+     "coverage_not_depressed": 0.7974763406940063,
+     "avg_set_size": 1.3025787965616047,
+     "share_single": 0.6974212034383954,
+     "share_both": 0.3025787965616046,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.78567335243553,
+     "coverage_depressed": 0.8125,
+     "coverage_not_depressed": 0.7829652996845425,
+     "avg_set_size": 1.377650429799427,
+     "share_single": 0.622349570200573,
+     "share_both": 0.3776504297994269,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6890812302839117,
+    "auc_ci": [
+     0.6465937072670765,
+     0.7334069639783057
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9507163323782235,
+     "coverage_depressed": 0.925,
+     "coverage_not_depressed": 0.9533123028391167,
+     "avg_set_size": 1.7478510028653296,
+     "share_single": 0.2521489971346705,
+     "share_both": 0.7478510028653295,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9495702005730658,
+     "coverage_depressed": 0.9125,
+     "coverage_not_depressed": 0.9533123028391167,
+     "avg_set_size": 1.7363896848137537,
+     "share_single": 0.2636103151862464,
+     "share_both": 0.7363896848137536,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.8974212034383954,
+     "coverage_depressed": 0.85,
+     "coverage_not_depressed": 0.9022082018927445,
+     "avg_set_size": 1.5478510028653296,
+     "share_single": 0.4521489971346705,
+     "share_both": 0.5478510028653295,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.7916462418300654,
+      0.901771396606377
+     ],
+     "cov_ci": [
+      0.8825214899713467,
+      0.9106160458452722
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.8962750716332378,
+     "coverage_depressed": 0.86875,
+     "coverage_not_depressed": 0.8990536277602523,
+     "avg_set_size": 1.5925501432664757,
+     "share_single": 0.40744985673352435,
+     "share_both": 0.5925501432664756,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8150621511922882,
+      0.9183711262282691
+     ],
+     "cov_ci": [
+      0.8825214899713467,
+      0.9100286532951289
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9457547169811321,
+       "coverage_depressed": 0.6415094339622641,
+       "n": 848,
+       "n_dep": 53
+      },
+      "women": {
+       "coverage": 0.8494983277591973,
+       "coverage_depressed": 0.9813084112149533,
+       "n": 897,
+       "n_dep": 107
+      },
+      "age 18-39": {
+       "coverage": 0.933649289099526,
+       "coverage_depressed": 0.8043478260869565,
+       "n": 633,
+       "n_dep": 46
+      },
+      "age 40-59": {
+       "coverage": 0.872113676731794,
+       "coverage_depressed": 0.9076923076923077,
+       "n": 563,
+       "n_dep": 65
+      },
+      "age 60+": {
+       "coverage": 0.8779599271402551,
+       "coverage_depressed": 0.8775510204081632,
+       "n": 549,
+       "n_dep": 49
+      },
+      "2011-12": {
+       "coverage": 0.8921212121212121,
+       "coverage_depressed": 0.8970588235294118,
+       "n": 825,
+       "n_dep": 68
+      },
+      "2013-14": {
+       "coverage": 0.9,
+       "coverage_depressed": 0.8478260869565217,
+       "n": 920,
+       "n_dep": 92
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.898567335243553,
+     "coverage_depressed": 0.9,
+     "coverage_not_depressed": 0.898422712933754,
+     "avg_set_size": 1.6332378223495703,
+     "share_single": 0.3667621776504298,
+     "share_both": 0.6332378223495702,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.8891509433962265,
+       "coverage_depressed": 0.8490566037735849
+      },
+      "women": {
+       "coverage": 0.907469342251951,
+       "coverage_depressed": 0.9252336448598131
+      },
+      "age 18-39": {
+       "coverage": 0.9352290679304898,
+       "coverage_depressed": 0.8043478260869565
+      },
+      "age 40-59": {
+       "coverage": 0.8632326820603907,
+       "coverage_depressed": 0.9384615384615385
+      },
+      "age 60+": {
+       "coverage": 0.8925318761384335,
+       "coverage_depressed": 0.9387755102040817
+      },
+      "2011-12": {
+       "coverage": 0.8896969696969697,
+       "coverage_depressed": 0.8676470588235294
+      },
+      "2013-14": {
+       "coverage": 0.9065217391304348,
+       "coverage_depressed": 0.9239130434782609
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9065902578796562,
+     "coverage_depressed": 0.85625,
+     "coverage_not_depressed": 0.9116719242902208,
+     "avg_set_size": 1.580515759312321,
+     "share_single": 0.4194842406876791,
+     "share_both": 0.5805157593123209,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.7742120343839541,
+     "coverage_depressed": 0.69375,
+     "coverage_not_depressed": 0.7823343848580442,
+     "avg_set_size": 1.2108882521489972,
+     "share_single": 0.7891117478510029,
+     "share_both": 0.21088825214899715,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.7770773638968481,
+     "coverage_depressed": 0.775,
+     "coverage_not_depressed": 0.7772870662460568,
+     "avg_set_size": 1.3094555873925502,
+     "share_single": 0.6905444126074498,
+     "share_both": 0.30945558739255014,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.638647476340694,
+    "auc_ci": [
+     0.5910576098197118,
+     0.6822922986168399
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9392550143266476,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.9394321766561514,
+     "avg_set_size": 1.7977077363896847,
+     "share_single": 0.2022922636103152,
+     "share_both": 0.7977077363896848,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9363896848137536,
+     "coverage_depressed": 0.8625,
+     "coverage_not_depressed": 0.9438485804416403,
+     "avg_set_size": 1.7375358166189112,
+     "share_single": 0.26246418338108884,
+     "share_both": 0.7375358166189112,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.8916905444126074,
+     "coverage_depressed": 0.83125,
+     "coverage_not_depressed": 0.8977917981072555,
+     "avg_set_size": 1.6355300859598854,
+     "share_single": 0.36446991404011464,
+     "share_both": 0.6355300859598854,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.7716005291005291,
+      0.885059412861137
+     ],
+     "cov_ci": [
+      0.8779369627507163,
+      0.9065902578796562
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.8905444126074499,
+     "coverage_depressed": 0.80625,
+     "coverage_not_depressed": 0.8990536277602523,
+     "avg_set_size": 1.5931232091690544,
+     "share_single": 0.4068767908309456,
+     "share_both": 0.5931232091690545,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.740506329113924,
+      0.8682889123713357
+     ],
+     "cov_ci": [
+      0.87621776504298,
+      0.9048710601719198
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9356796116504854,
+       "coverage_depressed": 0.5555555555555556,
+       "n": 824,
+       "n_dep": 63
+      },
+      "women": {
+       "coverage": 0.8501628664495114,
+       "coverage_depressed": 0.9690721649484536,
+       "n": 921,
+       "n_dep": 97
+      },
+      "age 18-39": {
+       "coverage": 0.9214402618657938,
+       "coverage_depressed": 0.6666666666666666,
+       "n": 611,
+       "n_dep": 42
+      },
+      "age 40-59": {
+       "coverage": 0.8472468916518651,
+       "coverage_depressed": 0.8676470588235294,
+       "n": 563,
+       "n_dep": 68
+      },
+      "age 60+": {
+       "coverage": 0.9001751313485113,
+       "coverage_depressed": 0.84,
+       "n": 571,
+       "n_dep": 50
+      },
+      "2011-12": {
+       "coverage": 0.8891509433962265,
+       "coverage_depressed": 0.8082191780821918,
+       "n": 848,
+       "n_dep": 73
+      },
+      "2013-14": {
+       "coverage": 0.8918617614269788,
+       "coverage_depressed": 0.8045977011494253,
+       "n": 897,
+       "n_dep": 87
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.8808022922636103,
+     "coverage_depressed": 0.83125,
+     "coverage_not_depressed": 0.8858044164037855,
+     "avg_set_size": 1.5673352435530086,
+     "share_single": 0.4326647564469914,
+     "share_both": 0.5673352435530086,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.8737864077669902,
+       "coverage_depressed": 0.7936507936507936
+      },
+      "women": {
+       "coverage": 0.8870792616720955,
+       "coverage_depressed": 0.8556701030927835
+      },
+      "age 18-39": {
+       "coverage": 0.9181669394435352,
+       "coverage_depressed": 0.6904761904761905
+      },
+      "age 40-59": {
+       "coverage": 0.8454706927175843,
+       "coverage_depressed": 0.8676470588235294
+      },
+      "age 60+": {
+       "coverage": 0.8756567425569177,
+       "coverage_depressed": 0.9
+      },
+      "2011-12": {
+       "coverage": 0.8856132075471698,
+       "coverage_depressed": 0.8082191780821918
+      },
+      "2013-14": {
+       "coverage": 0.8762541806020067,
+       "coverage_depressed": 0.8505747126436781
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.8813753581661891,
+     "coverage_depressed": 0.81875,
+     "coverage_not_depressed": 0.8876971608832808,
+     "avg_set_size": 1.6005730659025788,
+     "share_single": 0.3994269340974212,
+     "share_both": 0.6005730659025788,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.7822349570200573,
+     "coverage_depressed": 0.7375,
+     "coverage_not_depressed": 0.7867507886435331,
+     "avg_set_size": 1.3461318051575932,
+     "share_single": 0.6538681948424069,
+     "share_both": 0.3461318051575931,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.783381088825215,
+     "coverage_depressed": 0.75,
+     "coverage_not_depressed": 0.7867507886435331,
+     "avg_set_size": 1.3512893982808023,
+     "share_single": 0.6487106017191977,
+     "share_both": 0.3512893982808023,
+     "share_empty": 0.0
+    }
+   }
+  ],
+  "cnn": [
+   {
+    "auc": 0.6507334384858043,
+    "auc_ci": [
+     0.6045280325310507,
+     0.6946037650623753
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.954727793696275,
+     "coverage_depressed": 0.9625,
+     "coverage_not_depressed": 0.9539432176656152,
+     "avg_set_size": 1.8653295128939829,
+     "share_single": 0.1346704871060172,
+     "share_both": 0.8653295128939829,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.954727793696275,
+     "coverage_depressed": 0.9625,
+     "coverage_not_depressed": 0.9539432176656152,
+     "avg_set_size": 1.8716332378223495,
+     "share_single": 0.12836676217765042,
+     "share_both": 0.8716332378223496,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.8853868194842407,
+     "coverage_depressed": 0.9125,
+     "coverage_not_depressed": 0.8826498422712934,
+     "avg_set_size": 1.6899713467048711,
+     "share_single": 0.31002865329512896,
+     "share_both": 0.689971346704871,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8674603477199939,
+      0.9550579804091041
+     ],
+     "cov_ci": [
+      0.8699140401146132,
+      0.901432664756447
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.8865329512893982,
+     "coverage_depressed": 0.93125,
+     "coverage_not_depressed": 0.8820189274447949,
+     "avg_set_size": 1.7277936962750717,
+     "share_single": 0.2722063037249284,
+     "share_both": 0.7277936962750716,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8895187338501293,
+      0.9683594060982407
+     ],
+     "cov_ci": [
+      0.8727650429799426,
+      0.8997134670487106
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.8731257208765859,
+       "coverage_depressed": 0.8775510204081632,
+       "n": 867,
+       "n_dep": 49
+      },
+      "women": {
+       "coverage": 0.8997722095671982,
+       "coverage_depressed": 0.954954954954955,
+       "n": 878,
+       "n_dep": 111
+      },
+      "age 18-39": {
+       "coverage": 0.8876755070202809,
+       "coverage_depressed": 0.875,
+       "n": 641,
+       "n_dep": 40
+      },
+      "age 40-59": {
+       "coverage": 0.914396887159533,
+       "coverage_depressed": 0.95,
+       "n": 514,
+       "n_dep": 60
+      },
+      "age 60+": {
+       "coverage": 0.8610169491525423,
+       "coverage_depressed": 0.95,
+       "n": 590,
+       "n_dep": 60
+      },
+      "2011-12": {
+       "coverage": 0.8963051251489869,
+       "coverage_depressed": 0.9305555555555556,
+       "n": 839,
+       "n_dep": 72
+      },
+      "2013-14": {
+       "coverage": 0.8774834437086093,
+       "coverage_depressed": 0.9318181818181818,
+       "n": 906,
+       "n_dep": 88
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.8893982808022922,
+     "coverage_depressed": 0.94375,
+     "coverage_not_depressed": 0.8839116719242902,
+     "avg_set_size": 1.7415472779369627,
+     "share_single": 0.25845272206303727,
+     "share_both": 0.7415472779369627,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.8800461361014994,
+       "coverage_depressed": 0.9183673469387755
+      },
+      "women": {
+       "coverage": 0.8986332574031891,
+       "coverage_depressed": 0.954954954954955
+      },
+      "age 18-39": {
+       "coverage": 0.8923556942277691,
+       "coverage_depressed": 0.9
+      },
+      "age 40-59": {
+       "coverage": 0.9163424124513618,
+       "coverage_depressed": 0.95
+      },
+      "age 60+": {
+       "coverage": 0.8627118644067797,
+       "coverage_depressed": 0.9666666666666667
+      },
+      "2011-12": {
+       "coverage": 0.899880810488677,
+       "coverage_depressed": 0.9444444444444444
+      },
+      "2013-14": {
+       "coverage": 0.8796909492273731,
+       "coverage_depressed": 0.9431818181818182
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9025787965616046,
+     "coverage_depressed": 0.91875,
+     "coverage_not_depressed": 0.9009463722397476,
+     "avg_set_size": 1.729512893982808,
+     "share_single": 0.270487106017192,
+     "share_both": 0.729512893982808,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.7879656160458453,
+     "coverage_depressed": 0.8375,
+     "coverage_not_depressed": 0.7829652996845425,
+     "avg_set_size": 1.436676217765043,
+     "share_single": 0.563323782234957,
+     "share_both": 0.436676217765043,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.7891117478510029,
+     "coverage_depressed": 0.88125,
+     "coverage_not_depressed": 0.7798107255520504,
+     "avg_set_size": 1.495702005730659,
+     "share_single": 0.504297994269341,
+     "share_both": 0.49570200573065903,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6544440063091483,
+    "auc_ci": [
+     0.6087290792672932,
+     0.6981689551544367
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9598853868194842,
+     "coverage_depressed": 0.99375,
+     "coverage_not_depressed": 0.9564668769716088,
+     "avg_set_size": 1.851002865329513,
+     "share_single": 0.1489971346704871,
+     "share_both": 0.8510028653295129,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9593123209169054,
+     "coverage_depressed": 1.0,
+     "coverage_not_depressed": 0.955205047318612,
+     "avg_set_size": 1.9088825214899714,
+     "share_single": 0.09111747851002866,
+     "share_both": 0.9088825214899714,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.9117478510028654,
+     "coverage_depressed": 0.95,
+     "coverage_not_depressed": 0.9078864353312303,
+     "avg_set_size": 1.7134670487106016,
+     "share_single": 0.28653295128939826,
+     "share_both": 0.7134670487106017,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.911104033970276,
+      0.9814814814814815
+     ],
+     "cov_ci": [
+      0.8979942693409743,
+      0.9243553008595988
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.9111747851002865,
+     "coverage_depressed": 0.975,
+     "coverage_not_depressed": 0.9047318611987382,
+     "avg_set_size": 1.7449856733524356,
+     "share_single": 0.25501432664756446,
+     "share_both": 0.7449856733524355,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.9473606811145511,
+      1.0
+     ],
+     "cov_ci": [
+      0.8979799426934097,
+      0.9249283667621776
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.8863361547762999,
+       "coverage_depressed": 0.9444444444444444,
+       "n": 827,
+       "n_dep": 54
+      },
+      "women": {
+       "coverage": 0.9335511982570807,
+       "coverage_depressed": 0.9905660377358491,
+       "n": 918,
+       "n_dep": 106
+      },
+      "age 18-39": {
+       "coverage": 0.9222042139384117,
+       "coverage_depressed": 0.9761904761904762,
+       "n": 617,
+       "n_dep": 42
+      },
+      "age 40-59": {
+       "coverage": 0.9187279151943463,
+       "coverage_depressed": 0.9841269841269841,
+       "n": 566,
+       "n_dep": 63
+      },
+      "age 60+": {
+       "coverage": 0.891459074733096,
+       "coverage_depressed": 0.9636363636363636,
+       "n": 562,
+       "n_dep": 55
+      },
+      "2011-12": {
+       "coverage": 0.9232531500572738,
+       "coverage_depressed": 0.961038961038961,
+       "n": 873,
+       "n_dep": 77
+      },
+      "2013-14": {
+       "coverage": 0.8990825688073395,
+       "coverage_depressed": 0.9879518072289156,
+       "n": 872,
+       "n_dep": 83
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.9163323782234957,
+     "coverage_depressed": 0.98125,
+     "coverage_not_depressed": 0.9097791798107255,
+     "avg_set_size": 1.7919770773638968,
+     "share_single": 0.20802292263610314,
+     "share_both": 0.7919770773638969,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.8996372430471584,
+       "coverage_depressed": 0.9444444444444444
+      },
+      "women": {
+       "coverage": 0.9313725490196079,
+       "coverage_depressed": 1.0
+      },
+      "age 18-39": {
+       "coverage": 0.9270664505672609,
+       "coverage_depressed": 0.9761904761904762
+      },
+      "age 40-59": {
+       "coverage": 0.9204946996466431,
+       "coverage_depressed": 0.9841269841269841
+      },
+      "age 60+": {
+       "coverage": 0.900355871886121,
+       "coverage_depressed": 0.9818181818181818
+      },
+      "2011-12": {
+       "coverage": 0.9266895761741123,
+       "coverage_depressed": 0.961038961038961
+      },
+      "2013-14": {
+       "coverage": 0.9059633027522935,
+       "coverage_depressed": 1.0
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9232091690544413,
+     "coverage_depressed": 0.96875,
+     "coverage_not_depressed": 0.9186119873817035,
+     "avg_set_size": 1.7392550143266476,
+     "share_single": 0.2607449856733524,
+     "share_both": 0.7392550143266475,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.794269340974212,
+     "coverage_depressed": 0.825,
+     "coverage_not_depressed": 0.7911671924290221,
+     "avg_set_size": 1.4343839541547279,
+     "share_single": 0.5656160458452723,
+     "share_both": 0.4343839541547278,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.7959885386819484,
+     "coverage_depressed": 0.86875,
+     "coverage_not_depressed": 0.7886435331230284,
+     "avg_set_size": 1.495702005730659,
+     "share_single": 0.504297994269341,
+     "share_both": 0.49570200573065903,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6784266561514196,
+    "auc_ci": [
+     0.6339536268458794,
+     0.7181299975628838
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9553008595988539,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.9570977917981073,
+     "avg_set_size": 1.760458452722063,
+     "share_single": 0.23954154727793697,
+     "share_both": 0.760458452722063,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9553008595988539,
+     "coverage_depressed": 0.98125,
+     "coverage_not_depressed": 0.9526813880126183,
+     "avg_set_size": 1.8630372492836675,
+     "share_single": 0.13696275071633238,
+     "share_both": 0.8630372492836677,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.9054441260744985,
+     "coverage_depressed": 0.875,
+     "coverage_not_depressed": 0.9085173501577287,
+     "avg_set_size": 1.5862464183381089,
+     "share_single": 0.41375358166189113,
+     "share_both": 0.5862464183381089,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8223613577655795,
+      0.928164163476326
+     ],
+     "cov_ci": [
+      0.8916762177650429,
+      0.9197707736389685
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.9002865329512894,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.8965299684542587,
+     "avg_set_size": 1.6916905444126074,
+     "share_single": 0.30830945558739253,
+     "share_both": 0.6916905444126075,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8970517077798862,
+      0.9736842105263158
+     ],
+     "cov_ci": [
+      0.8865329512893982,
+      0.9134670487106017
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.8797169811320755,
+       "coverage_depressed": 0.9344262295081968,
+       "n": 848,
+       "n_dep": 61
+      },
+      "women": {
+       "coverage": 0.919732441471572,
+       "coverage_depressed": 0.9393939393939394,
+       "n": 897,
+       "n_dep": 99
+      },
+      "age 18-39": {
+       "coverage": 0.9003215434083601,
+       "coverage_depressed": 0.9636363636363636,
+       "n": 622,
+       "n_dep": 55
+      },
+      "age 40-59": {
+       "coverage": 0.9290909090909091,
+       "coverage_depressed": 0.9333333333333333,
+       "n": 550,
+       "n_dep": 60
+      },
+      "age 60+": {
+       "coverage": 0.8726003490401396,
+       "coverage_depressed": 0.9111111111111111,
+       "n": 573,
+       "n_dep": 45
+      },
+      "2011-12": {
+       "coverage": 0.8912783751493429,
+       "coverage_depressed": 0.9102564102564102,
+       "n": 837,
+       "n_dep": 78
+      },
+      "2013-14": {
+       "coverage": 0.9085903083700441,
+       "coverage_depressed": 0.9634146341463414,
+       "n": 908,
+       "n_dep": 82
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.8991404011461318,
+     "coverage_depressed": 0.95,
+     "coverage_not_depressed": 0.894006309148265,
+     "avg_set_size": 1.7272206303724928,
+     "share_single": 0.27277936962750715,
+     "share_both": 0.7272206303724928,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.8903301886792453,
+       "coverage_depressed": 0.9672131147540983
+      },
+      "women": {
+       "coverage": 0.907469342251951,
+       "coverage_depressed": 0.9393939393939394
+      },
+      "age 18-39": {
+       "coverage": 0.9035369774919614,
+       "coverage_depressed": 0.9818181818181818
+      },
+      "age 40-59": {
+       "coverage": 0.9290909090909091,
+       "coverage_depressed": 0.95
+      },
+      "age 60+": {
+       "coverage": 0.8656195462478184,
+       "coverage_depressed": 0.9111111111111111
+      },
+      "2011-12": {
+       "coverage": 0.8900836320191159,
+       "coverage_depressed": 0.9230769230769231
+      },
+      "2013-14": {
+       "coverage": 0.9074889867841409,
+       "coverage_depressed": 0.975609756097561
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9415472779369628,
+     "coverage_depressed": 0.925,
+     "coverage_not_depressed": 0.943217665615142,
+     "avg_set_size": 1.7060171919770775,
+     "share_single": 0.29398280802292265,
+     "share_both": 0.7060171919770774,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.8040114613180516,
+     "coverage_depressed": 0.7,
+     "coverage_not_depressed": 0.8145110410094637,
+     "avg_set_size": 1.2773638968481376,
+     "share_single": 0.7226361031518624,
+     "share_both": 0.27736389684813756,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.802865329512894,
+     "coverage_depressed": 0.90625,
+     "coverage_not_depressed": 0.7924290220820189,
+     "avg_set_size": 1.4922636103151863,
+     "share_single": 0.5077363896848137,
+     "share_both": 0.49226361031518623,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6416679810725552,
+    "auc_ci": [
+     0.5951206435262216,
+     0.683779475821017
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9467048710601719,
+     "coverage_depressed": 1.0,
+     "coverage_not_depressed": 0.9413249211356467,
+     "avg_set_size": 1.9237822349570202,
+     "share_single": 0.07621776504297995,
+     "share_both": 0.92378223495702,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9478510028653295,
+     "coverage_depressed": 0.93125,
+     "coverage_not_depressed": 0.9495268138801262,
+     "avg_set_size": 1.7638968481375359,
+     "share_single": 0.2361031518624642,
+     "share_both": 0.7638968481375358,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.904297994269341,
+     "coverage_depressed": 0.975,
+     "coverage_not_depressed": 0.897160883280757,
+     "avg_set_size": 1.8160458452722064,
+     "share_single": 0.1839541547277937,
+     "share_both": 0.8160458452722062,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.9485584415584416,
+      0.9941528967768257
+     ],
+     "cov_ci": [
+      0.8899713467048711,
+      0.9186246418338109
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.9002865329512894,
+     "coverage_depressed": 0.88125,
+     "coverage_not_depressed": 0.9022082018927445,
+     "avg_set_size": 1.6297994269340974,
+     "share_single": 0.3702005730659026,
+     "share_both": 0.6297994269340974,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8303001715265866,
+      0.927710843373494
+     ],
+     "cov_ci": [
+      0.885945558739255,
+      0.9140401146131805
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.8867924528301887,
+       "coverage_depressed": 0.8679245283018868,
+       "n": 848,
+       "n_dep": 53
+      },
+      "women": {
+       "coverage": 0.9130434782608695,
+       "coverage_depressed": 0.8878504672897196,
+       "n": 897,
+       "n_dep": 107
+      },
+      "age 18-39": {
+       "coverage": 0.8941548183254344,
+       "coverage_depressed": 0.782608695652174,
+       "n": 633,
+       "n_dep": 46
+      },
+      "age 40-59": {
+       "coverage": 0.9058614564831261,
+       "coverage_depressed": 0.8923076923076924,
+       "n": 563,
+       "n_dep": 65
+      },
+      "age 60+": {
+       "coverage": 0.9016393442622951,
+       "coverage_depressed": 0.9591836734693877,
+       "n": 549,
+       "n_dep": 49
+      },
+      "2011-12": {
+       "coverage": 0.8896969696969697,
+       "coverage_depressed": 0.8676470588235294,
+       "n": 825,
+       "n_dep": 68
+      },
+      "2013-14": {
+       "coverage": 0.9097826086956522,
+       "coverage_depressed": 0.8913043478260869,
+       "n": 920,
+       "n_dep": 92
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.9020057306590258,
+     "coverage_depressed": 0.8875,
+     "coverage_not_depressed": 0.9034700315457413,
+     "avg_set_size": 1.6383954154727793,
+     "share_single": 0.3616045845272206,
+     "share_both": 0.6383954154727793,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.8962264150943396,
+       "coverage_depressed": 0.8679245283018868
+      },
+      "women": {
+       "coverage": 0.907469342251951,
+       "coverage_depressed": 0.897196261682243
+      },
+      "age 18-39": {
+       "coverage": 0.8941548183254344,
+       "coverage_depressed": 0.782608695652174
+      },
+      "age 40-59": {
+       "coverage": 0.9023090586145648,
+       "coverage_depressed": 0.8923076923076924
+      },
+      "age 60+": {
+       "coverage": 0.9107468123861566,
+       "coverage_depressed": 0.9795918367346939
+      },
+      "2011-12": {
+       "coverage": 0.8909090909090909,
+       "coverage_depressed": 0.8823529411764706
+      },
+      "2013-14": {
+       "coverage": 0.9119565217391304,
+       "coverage_depressed": 0.8913043478260869
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.8435530085959886,
+     "coverage_depressed": 0.93125,
+     "coverage_not_depressed": 0.8347003154574133,
+     "avg_set_size": 1.6378223495702007,
+     "share_single": 0.36217765042979944,
+     "share_both": 0.6378223495702006,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.8154727793696275,
+     "coverage_depressed": 0.9,
+     "coverage_not_depressed": 0.8069400630914827,
+     "avg_set_size": 1.5570200573065902,
+     "share_single": 0.44297994269340973,
+     "share_both": 0.5570200573065902,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.8045845272206303,
+     "coverage_depressed": 0.7,
+     "coverage_not_depressed": 0.8151419558359622,
+     "avg_set_size": 1.3461318051575932,
+     "share_single": 0.6538681948424069,
+     "share_both": 0.3461318051575931,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6055875394321767,
+    "auc_ci": [
+     0.5563276441175316,
+     0.652229694169485
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9489971346704871,
+     "coverage_depressed": 0.9625,
+     "coverage_not_depressed": 0.9476340694006309,
+     "avg_set_size": 1.8785100286532952,
+     "share_single": 0.12148997134670488,
+     "share_both": 0.8785100286532951,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9467048710601719,
+     "coverage_depressed": 0.925,
+     "coverage_not_depressed": 0.9488958990536278,
+     "avg_set_size": 1.797134670487106,
+     "share_single": 0.202865329512894,
+     "share_both": 0.7971346704871061,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.9106017191977077,
+     "coverage_depressed": 0.925,
+     "coverage_not_depressed": 0.9091482649842272,
+     "avg_set_size": 1.7535816618911175,
+     "share_single": 0.24641833810888253,
+     "share_both": 0.7535816618911175,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.88156328320802,
+      0.9650369978858351
+     ],
+     "cov_ci": [
+      0.8974212034383954,
+      0.92378223495702
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.9008595988538682,
+     "coverage_depressed": 0.79375,
+     "coverage_not_depressed": 0.9116719242902208,
+     "avg_set_size": 1.6034383954154727,
+     "share_single": 0.3965616045845272,
+     "share_both": 0.6034383954154727,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.73376527318835,
+      0.8589145409536111
+     ],
+     "cov_ci": [
+      0.8865329512893982,
+      0.9151862464183381
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.8919902912621359,
+       "coverage_depressed": 0.8095238095238095,
+       "n": 824,
+       "n_dep": 63
+      },
+      "women": {
+       "coverage": 0.9087947882736156,
+       "coverage_depressed": 0.7835051546391752,
+       "n": 921,
+       "n_dep": 97
+      },
+      "age 18-39": {
+       "coverage": 0.9083469721767594,
+       "coverage_depressed": 0.7619047619047619,
+       "n": 611,
+       "n_dep": 42
+      },
+      "age 40-59": {
+       "coverage": 0.8987566607460036,
+       "coverage_depressed": 0.7941176470588235,
+       "n": 563,
+       "n_dep": 68
+      },
+      "age 60+": {
+       "coverage": 0.8949211908931699,
+       "coverage_depressed": 0.82,
+       "n": 571,
+       "n_dep": 50
+      },
+      "2011-12": {
+       "coverage": 0.8974056603773585,
+       "coverage_depressed": 0.7671232876712328,
+       "n": 848,
+       "n_dep": 73
+      },
+      "2013-14": {
+       "coverage": 0.9041248606465998,
+       "coverage_depressed": 0.8160919540229885,
+       "n": 897,
+       "n_dep": 87
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.898567335243553,
+     "coverage_depressed": 0.8,
+     "coverage_not_depressed": 0.9085173501577287,
+     "avg_set_size": 1.6286532951289399,
+     "share_single": 0.3713467048710602,
+     "share_both": 0.6286532951289399,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.8895631067961165,
+       "coverage_depressed": 0.7619047619047619
+      },
+      "women": {
+       "coverage": 0.9066232356134636,
+       "coverage_depressed": 0.8247422680412371
+      },
+      "age 18-39": {
+       "coverage": 0.9034369885433715,
+       "coverage_depressed": 0.7380952380952381
+      },
+      "age 40-59": {
+       "coverage": 0.8952042628774423,
+       "coverage_depressed": 0.8088235294117647
+      },
+      "age 60+": {
+       "coverage": 0.8966725043782837,
+       "coverage_depressed": 0.84
+      },
+      "2011-12": {
+       "coverage": 0.8962264150943396,
+       "coverage_depressed": 0.7808219178082192
+      },
+      "2013-14": {
+       "coverage": 0.9007803790412486,
+       "coverage_depressed": 0.8160919540229885
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.8613180515759312,
+     "coverage_depressed": 0.83125,
+     "coverage_not_depressed": 0.8643533123028391,
+     "avg_set_size": 1.6240687679083095,
+     "share_single": 0.37593123209169055,
+     "share_both": 0.6240687679083095,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.7891117478510029,
+     "coverage_depressed": 0.7125,
+     "coverage_not_depressed": 0.7968454258675078,
+     "avg_set_size": 1.4206303724928366,
+     "share_single": 0.5793696275071634,
+     "share_both": 0.4206303724928367,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.7896848137535817,
+     "coverage_depressed": 0.675,
+     "coverage_not_depressed": 0.8012618296529969,
+     "avg_set_size": 1.3696275071633237,
+     "share_single": 0.6303724928366762,
+     "share_both": 0.36962750716332377,
+     "share_empty": 0.0
+    }
+   }
+  ],
+  "logreg_demo": [
+   {
+    "auc": 0.6679968454258676,
+    "auc_ci": [
+     0.6261764980971821,
+     0.7107488957034948
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9535816618911175,
+     "coverage_depressed": 0.95625,
+     "coverage_not_depressed": 0.9533123028391167,
+     "avg_set_size": 1.830945558739255,
+     "share_single": 0.16905444126074498,
+     "share_both": 0.830945558739255,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9524355300859599,
+     "coverage_depressed": 0.95625,
+     "coverage_not_depressed": 0.9520504731861199,
+     "avg_set_size": 1.8429799426934097,
+     "share_single": 0.15702005730659027,
+     "share_both": 0.8429799426934097,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.904297994269341,
+     "coverage_depressed": 0.8875,
+     "coverage_not_depressed": 0.905993690851735,
+     "avg_set_size": 1.6636103151862465,
+     "share_single": 0.3363896848137536,
+     "share_both": 0.6636103151862465,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.838138090233466,
+      0.9346472908690103
+     ],
+     "cov_ci": [
+      0.8899713467048711,
+      0.9180515759312321
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.9037249283667622,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.9003154574132493,
+     "avg_set_size": 1.7484240687679082,
+     "share_single": 0.2515759312320917,
+     "share_both": 0.7484240687679083,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.897586499845536,
+      0.9723942553317887
+     ],
+     "cov_ci": [
+      0.8899713467048711,
+      0.9169054441260746
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9619377162629758,
+       "coverage_depressed": 0.7959183673469388,
+       "n": 867,
+       "n_dep": 49
+      },
+      "women": {
+       "coverage": 0.8462414578587699,
+       "coverage_depressed": 1.0,
+       "n": 878,
+       "n_dep": 111
+      },
+      "age 18-39": {
+       "coverage": 0.9329173166926678,
+       "coverage_depressed": 0.925,
+       "n": 641,
+       "n_dep": 40
+      },
+      "age 40-59": {
+       "coverage": 0.9085603112840467,
+       "coverage_depressed": 0.9333333333333333,
+       "n": 514,
+       "n_dep": 60
+      },
+      "age 60+": {
+       "coverage": 0.8677966101694915,
+       "coverage_depressed": 0.95,
+       "n": 590,
+       "n_dep": 60
+      },
+      "2011-12": {
+       "coverage": 0.9094159713945172,
+       "coverage_depressed": 0.9305555555555556,
+       "n": 839,
+       "n_dep": 72
+      },
+      "2013-14": {
+       "coverage": 0.8984547461368654,
+       "coverage_depressed": 0.9431818181818182,
+       "n": 906,
+       "n_dep": 88
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.9031518624641833,
+     "coverage_depressed": 0.89375,
+     "coverage_not_depressed": 0.9041009463722397,
+     "avg_set_size": 1.7134670487106016,
+     "share_single": 0.28653295128939826,
+     "share_both": 0.7134670487106017,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.9134948096885813,
+       "coverage_depressed": 0.8775510204081632
+      },
+      "women": {
+       "coverage": 0.8929384965831435,
+       "coverage_depressed": 0.9009009009009009
+      },
+      "age 18-39": {
+       "coverage": 0.9251170046801872,
+       "coverage_depressed": 0.775
+      },
+      "age 40-59": {
+       "coverage": 0.9124513618677043,
+       "coverage_depressed": 0.9333333333333333
+      },
+      "age 60+": {
+       "coverage": 0.8711864406779661,
+       "coverage_depressed": 0.9333333333333333
+      },
+      "2011-12": {
+       "coverage": 0.9094159713945172,
+       "coverage_depressed": 0.875
+      },
+      "2013-14": {
+       "coverage": 0.8973509933774835,
+       "coverage_depressed": 0.9090909090909091
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9249283667621776,
+     "coverage_depressed": 0.9125,
+     "coverage_not_depressed": 0.9261829652996846,
+     "avg_set_size": 1.7375358166189112,
+     "share_single": 0.26246418338108884,
+     "share_both": 0.7375358166189112,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.8034383954154728,
+     "coverage_depressed": 0.79375,
+     "coverage_not_depressed": 0.804416403785489,
+     "avg_set_size": 1.3730659025787966,
+     "share_single": 0.6269340974212034,
+     "share_both": 0.37306590257879657,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.802865329512894,
+     "coverage_depressed": 0.83125,
+     "coverage_not_depressed": 0.8,
+     "avg_set_size": 1.4550143266475644,
+     "share_single": 0.5449856733524355,
+     "share_both": 0.45501432664756447,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6818375394321767,
+    "auc_ci": [
+     0.6374528630279682,
+     0.7249745884119263
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9489971346704871,
+     "coverage_depressed": 0.93125,
+     "coverage_not_depressed": 0.950788643533123,
+     "avg_set_size": 1.7931232091690545,
+     "share_single": 0.20687679083094557,
+     "share_both": 0.7931232091690544,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9501432664756447,
+     "coverage_depressed": 0.95,
+     "coverage_not_depressed": 0.9501577287066246,
+     "avg_set_size": 1.845272206303725,
+     "share_single": 0.15472779369627507,
+     "share_both": 0.8452722063037249,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.9031518624641833,
+     "coverage_depressed": 0.875,
+     "coverage_not_depressed": 0.905993690851735,
+     "avg_set_size": 1.633810888252149,
+     "share_single": 0.366189111747851,
+     "share_both": 0.633810888252149,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8203559173787257,
+      0.9248591040462427
+     ],
+     "cov_ci": [
+      0.8882521489971347,
+      0.9157593123209169
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.9031518624641833,
+     "coverage_depressed": 0.93125,
+     "coverage_not_depressed": 0.9003154574132493,
+     "avg_set_size": 1.7283667621776504,
+     "share_single": 0.27163323782234955,
+     "share_both": 0.7283667621776504,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8923970949822421,
+      0.968944099378882
+     ],
+     "cov_ci": [
+      0.8876790830945559,
+      0.9169054441260746
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9480048367593712,
+       "coverage_depressed": 0.7962962962962963,
+       "n": 827,
+       "n_dep": 54
+      },
+      "women": {
+       "coverage": 0.8627450980392157,
+       "coverage_depressed": 1.0,
+       "n": 918,
+       "n_dep": 106
+      },
+      "age 18-39": {
+       "coverage": 0.9011345218800648,
+       "coverage_depressed": 0.8809523809523809,
+       "n": 617,
+       "n_dep": 42
+      },
+      "age 40-59": {
+       "coverage": 0.9204946996466431,
+       "coverage_depressed": 0.9523809523809523,
+       "n": 566,
+       "n_dep": 63
+      },
+      "age 60+": {
+       "coverage": 0.8879003558718861,
+       "coverage_depressed": 0.9454545454545454,
+       "n": 562,
+       "n_dep": 55
+      },
+      "2011-12": {
+       "coverage": 0.9060710194730813,
+       "coverage_depressed": 0.935064935064935,
+       "n": 873,
+       "n_dep": 77
+      },
+      "2013-14": {
+       "coverage": 0.9002293577981652,
+       "coverage_depressed": 0.927710843373494,
+       "n": 872,
+       "n_dep": 83
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.9048710601719198,
+     "coverage_depressed": 0.95625,
+     "coverage_not_depressed": 0.8996845425867508,
+     "avg_set_size": 1.7793696275071633,
+     "share_single": 0.22063037249283668,
+     "share_both": 0.7793696275071633,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.8814993954050786,
+       "coverage_depressed": 0.8703703703703703
+      },
+      "women": {
+       "coverage": 0.9259259259259259,
+       "coverage_depressed": 1.0
+      },
+      "age 18-39": {
+       "coverage": 0.9092382495948136,
+       "coverage_depressed": 0.9523809523809523
+      },
+      "age 40-59": {
+       "coverage": 0.911660777385159,
+       "coverage_depressed": 0.9682539682539683
+      },
+      "age 60+": {
+       "coverage": 0.8932384341637011,
+       "coverage_depressed": 0.9454545454545454
+      },
+      "2011-12": {
+       "coverage": 0.9117983963344788,
+       "coverage_depressed": 0.961038961038961
+      },
+      "2013-14": {
+       "coverage": 0.8979357798165137,
+       "coverage_depressed": 0.9518072289156626
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.932378223495702,
+     "coverage_depressed": 0.9125,
+     "coverage_not_depressed": 0.934384858044164,
+     "avg_set_size": 1.732378223495702,
+     "share_single": 0.26762177650429797,
+     "share_both": 0.732378223495702,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.8097421203438395,
+     "coverage_depressed": 0.7875,
+     "coverage_not_depressed": 0.8119873817034701,
+     "avg_set_size": 1.3553008595988538,
+     "share_single": 0.6446991404011462,
+     "share_both": 0.3553008595988539,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.802865329512894,
+     "coverage_depressed": 0.84375,
+     "coverage_not_depressed": 0.7987381703470031,
+     "avg_set_size": 1.4653295128939827,
+     "share_single": 0.5346704871060172,
+     "share_both": 0.46532951289398283,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6690851735015773,
+    "auc_ci": [
+     0.6253065352529356,
+     0.7120714781079074
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9478510028653295,
+     "coverage_depressed": 0.95625,
+     "coverage_not_depressed": 0.9470031545741325,
+     "avg_set_size": 1.8160458452722064,
+     "share_single": 0.1839541547277937,
+     "share_both": 0.8160458452722062,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9478510028653295,
+     "coverage_depressed": 0.95625,
+     "coverage_not_depressed": 0.9470031545741325,
+     "avg_set_size": 1.8229226361031519,
+     "share_single": 0.17707736389684814,
+     "share_both": 0.8229226361031519,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.9025787965616046,
+     "coverage_depressed": 0.925,
+     "coverage_not_depressed": 0.9003154574132493,
+     "avg_set_size": 1.6452722063037248,
+     "share_single": 0.35472779369627505,
+     "share_both": 0.645272206303725,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.884608843537415,
+      0.963855421686747
+     ],
+     "cov_ci": [
+      0.8876647564469914,
+      0.9163323782234957
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.9037249283667622,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.9003154574132493,
+     "avg_set_size": 1.6934097421203438,
+     "share_single": 0.30659025787965616,
+     "share_both": 0.6934097421203438,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8953114849941536,
+      0.9702468487394957
+     ],
+     "cov_ci": [
+      0.8899713467048711,
+      0.9174785100286533
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9540094339622641,
+       "coverage_depressed": 0.8360655737704918,
+       "n": 848,
+       "n_dep": 61
+      },
+      "women": {
+       "coverage": 0.8561872909698997,
+       "coverage_depressed": 1.0,
+       "n": 897,
+       "n_dep": 99
+      },
+      "age 18-39": {
+       "coverage": 0.9308681672025724,
+       "coverage_depressed": 0.8363636363636363,
+       "n": 622,
+       "n_dep": 55
+      },
+      "age 40-59": {
+       "coverage": 0.9236363636363636,
+       "coverage_depressed": 1.0,
+       "n": 550,
+       "n_dep": 60
+      },
+      "age 60+": {
+       "coverage": 0.8551483420593369,
+       "coverage_depressed": 0.9777777777777777,
+       "n": 573,
+       "n_dep": 45
+      },
+      "2011-12": {
+       "coverage": 0.8984468339307049,
+       "coverage_depressed": 0.9358974358974359,
+       "n": 837,
+       "n_dep": 78
+      },
+      "2013-14": {
+       "coverage": 0.9085903083700441,
+       "coverage_depressed": 0.9390243902439024,
+       "n": 908,
+       "n_dep": 82
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.9025787965616046,
+     "coverage_depressed": 0.91875,
+     "coverage_not_depressed": 0.9009463722397476,
+     "avg_set_size": 1.735243553008596,
+     "share_single": 0.264756446991404,
+     "share_both": 0.735243553008596,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.9080188679245284,
+       "coverage_depressed": 0.9344262295081968
+      },
+      "women": {
+       "coverage": 0.8974358974358975,
+       "coverage_depressed": 0.9090909090909091
+      },
+      "age 18-39": {
+       "coverage": 0.9389067524115756,
+       "coverage_depressed": 0.8545454545454545
+      },
+      "age 40-59": {
+       "coverage": 0.9290909090909091,
+       "coverage_depressed": 0.95
+      },
+      "age 60+": {
+       "coverage": 0.837696335078534,
+       "coverage_depressed": 0.9555555555555556
+      },
+      "2011-12": {
+       "coverage": 0.899641577060932,
+       "coverage_depressed": 0.9487179487179487
+      },
+      "2013-14": {
+       "coverage": 0.9052863436123348,
+       "coverage_depressed": 0.8902439024390244
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.9157593123209169,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.9135646687697161,
+     "avg_set_size": 1.6939828080229227,
+     "share_single": 0.3060171919770774,
+     "share_both": 0.6939828080229227,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.7988538681948424,
+     "coverage_depressed": 0.8,
+     "coverage_not_depressed": 0.7987381703470031,
+     "avg_set_size": 1.3765042979942694,
+     "share_single": 0.6234957020057307,
+     "share_both": 0.3765042979942693,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.8,
+     "coverage_depressed": 0.8125,
+     "coverage_not_depressed": 0.7987381703470031,
+     "avg_set_size": 1.4051575931232092,
+     "share_single": 0.5948424068767908,
+     "share_both": 0.40515759312320915,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6736198738170347,
+    "auc_ci": [
+     0.6274399550563323,
+     0.716611690479787
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9392550143266476,
+     "coverage_depressed": 0.94375,
+     "coverage_not_depressed": 0.938801261829653,
+     "avg_set_size": 1.7988538681948425,
+     "share_single": 0.20114613180515759,
+     "share_both": 0.7988538681948424,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9404011461318051,
+     "coverage_depressed": 0.925,
+     "coverage_not_depressed": 0.9419558359621452,
+     "avg_set_size": 1.765616045845272,
+     "share_single": 0.2343839541547278,
+     "share_both": 0.7656160458452722,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.8939828080229226,
+     "coverage_depressed": 0.89375,
+     "coverage_not_depressed": 0.894006309148265,
+     "avg_set_size": 1.6412607449856733,
+     "share_single": 0.35873925501432663,
+     "share_both": 0.6412607449856733,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8444270833333334,
+      0.9382945445445444
+     ],
+     "cov_ci": [
+      0.880214899713467,
+      0.908323782234957
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.8934097421203439,
+     "coverage_depressed": 0.875,
+     "coverage_not_depressed": 0.8952681388012619,
+     "avg_set_size": 1.6126074498567335,
+     "share_single": 0.38739255014326646,
+     "share_both": 0.6126074498567335,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.8175569498069498,
+      0.9242444717444717
+     ],
+     "cov_ci": [
+      0.8779369627507163,
+      0.9083094555873925
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9351415094339622,
+       "coverage_depressed": 0.6415094339622641,
+       "n": 848,
+       "n_dep": 53
+      },
+      "women": {
+       "coverage": 0.8539576365663322,
+       "coverage_depressed": 0.9906542056074766,
+       "n": 897,
+       "n_dep": 107
+      },
+      "age 18-39": {
+       "coverage": 0.909952606635071,
+       "coverage_depressed": 0.8478260869565217,
+       "n": 633,
+       "n_dep": 46
+      },
+      "age 40-59": {
+       "coverage": 0.9094138543516874,
+       "coverage_depressed": 0.8769230769230769,
+       "n": 563,
+       "n_dep": 65
+      },
+      "age 60+": {
+       "coverage": 0.8579234972677595,
+       "coverage_depressed": 0.8979591836734694,
+       "n": 549,
+       "n_dep": 49
+      },
+      "2011-12": {
+       "coverage": 0.8909090909090909,
+       "coverage_depressed": 0.8970588235294118,
+       "n": 825,
+       "n_dep": 68
+      },
+      "2013-14": {
+       "coverage": 0.8956521739130435,
+       "coverage_depressed": 0.8586956521739131,
+       "n": 920,
+       "n_dep": 92
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.8905444126074499,
+     "coverage_depressed": 0.89375,
+     "coverage_not_depressed": 0.8902208201892744,
+     "avg_set_size": 1.6555873925501432,
+     "share_single": 0.34441260744985674,
+     "share_both": 0.6555873925501433,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.8926886792452831,
+       "coverage_depressed": 0.8490566037735849
+      },
+      "women": {
+       "coverage": 0.8885172798216276,
+       "coverage_depressed": 0.9158878504672897
+      },
+      "age 18-39": {
+       "coverage": 0.919431279620853,
+       "coverage_depressed": 0.8260869565217391
+      },
+      "age 40-59": {
+       "coverage": 0.8916518650088809,
+       "coverage_depressed": 0.9076923076923077
+      },
+      "age 60+": {
+       "coverage": 0.8561020036429873,
+       "coverage_depressed": 0.9387755102040817
+      },
+      "2011-12": {
+       "coverage": 0.8872727272727273,
+       "coverage_depressed": 0.8676470588235294
+      },
+      "2013-14": {
+       "coverage": 0.8934782608695652,
+       "coverage_depressed": 0.9130434782608695
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.8853868194842407,
+     "coverage_depressed": 0.875,
+     "coverage_not_depressed": 0.886435331230284,
+     "avg_set_size": 1.6131805157593124,
+     "share_single": 0.3868194842406877,
+     "share_both": 0.6131805157593123,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.7845272206303725,
+     "coverage_depressed": 0.79375,
+     "coverage_not_depressed": 0.783596214511041,
+     "avg_set_size": 1.3386819484240688,
+     "share_single": 0.6613180515759313,
+     "share_both": 0.3386819484240688,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.7868194842406877,
+     "coverage_depressed": 0.81875,
+     "coverage_not_depressed": 0.783596214511041,
+     "avg_set_size": 1.3610315186246418,
+     "share_single": 0.6389684813753582,
+     "share_both": 0.36103151862464183,
+     "share_empty": 0.0
+    }
+   },
+   {
+    "auc": 0.6185331230283911,
+    "auc_ci": [
+     0.5692920433778585,
+     0.6669760327095149
+    ],
+    "marginal_a0.05": {
+     "coverage": 0.9478510028653295,
+     "coverage_depressed": 0.9375,
+     "coverage_not_depressed": 0.9488958990536278,
+     "avg_set_size": 1.8343839541547278,
+     "share_single": 0.1656160458452722,
+     "share_both": 0.8343839541547278,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.05": {
+     "coverage": 0.9444126074498568,
+     "coverage_depressed": 0.85625,
+     "coverage_not_depressed": 0.9533123028391167,
+     "avg_set_size": 1.7232091690544413,
+     "share_single": 0.27679083094555873,
+     "share_both": 0.7232091690544412,
+     "share_empty": 0.0
+    },
+    "marginal_a0.1": {
+     "coverage": 0.8939828080229226,
+     "coverage_depressed": 0.8375,
+     "coverage_not_depressed": 0.8996845425867508,
+     "avg_set_size": 1.6401146131805158,
+     "share_single": 0.35988538681948423,
+     "share_both": 0.6401146131805158,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.7763786032807772,
+      0.8932754511406197
+     ],
+     "cov_ci": [
+      0.8802292263610315,
+      0.9077363896848137
+     ]
+    },
+    "mondrian_a0.1": {
+     "coverage": 0.8922636103151862,
+     "coverage_depressed": 0.7625,
+     "coverage_not_depressed": 0.9053627760252366,
+     "avg_set_size": 1.563323782234957,
+     "share_single": 0.436676217765043,
+     "share_both": 0.563323782234957,
+     "share_empty": 0.0,
+     "cov_dep_ci": [
+      0.6964165057915057,
+      0.8243487463366982
+     ],
+     "cov_ci": [
+      0.8785100286532951,
+      0.9060171919770774
+     ],
+     "subgroups": {
+      "men": {
+       "coverage": 0.9247572815533981,
+       "coverage_depressed": 0.4603174603174603,
+       "n": 824,
+       "n_dep": 63
+      },
+      "women": {
+       "coverage": 0.8631921824104235,
+       "coverage_depressed": 0.9587628865979382,
+       "n": 921,
+       "n_dep": 97
+      },
+      "age 18-39": {
+       "coverage": 0.9067103109656302,
+       "coverage_depressed": 0.6428571428571429,
+       "n": 611,
+       "n_dep": 42
+      },
+      "age 40-59": {
+       "coverage": 0.8916518650088809,
+       "coverage_depressed": 0.8088235294117647,
+       "n": 563,
+       "n_dep": 68
+      },
+      "age 60+": {
+       "coverage": 0.8774080560420315,
+       "coverage_depressed": 0.8,
+       "n": 571,
+       "n_dep": 50
+      },
+      "2011-12": {
+       "coverage": 0.8938679245283019,
+       "coverage_depressed": 0.7534246575342466,
+       "n": 848,
+       "n_dep": 73
+      },
+      "2013-14": {
+       "coverage": 0.8907469342251951,
+       "coverage_depressed": 0.7701149425287356,
+       "n": 897,
+       "n_dep": 87
+      }
+     }
+    },
+    "mondrian_sex_a0.1": {
+     "coverage": 0.8951289398280803,
+     "coverage_depressed": 0.80625,
+     "coverage_not_depressed": 0.9041009463722397,
+     "avg_set_size": 1.5873925501432664,
+     "share_single": 0.41260744985673353,
+     "share_both": 0.5873925501432665,
+     "share_empty": 0.0,
+     "subgroups": {
+      "men": {
+       "coverage": 0.8810679611650486,
+       "coverage_depressed": 0.6984126984126984
+      },
+      "women": {
+       "coverage": 0.9077090119435396,
+       "coverage_depressed": 0.8762886597938144
+      },
+      "age 18-39": {
+       "coverage": 0.9165302782324058,
+       "coverage_depressed": 0.7619047619047619
+      },
+      "age 40-59": {
+       "coverage": 0.8952042628774423,
+       "coverage_depressed": 0.7941176470588235
+      },
+      "age 60+": {
+       "coverage": 0.87215411558669,
+       "coverage_depressed": 0.86
+      },
+      "2011-12": {
+       "coverage": 0.8950471698113207,
+       "coverage_depressed": 0.7671232876712328
+      },
+      "2013-14": {
+       "coverage": 0.89520624303233,
+       "coverage_depressed": 0.8390804597701149
+      }
+     }
+    },
+    "band_rule_a0.1": {
+     "coverage": 0.8601719197707737,
+     "coverage_depressed": 0.79375,
+     "coverage_not_depressed": 0.8668769716088328,
+     "avg_set_size": 1.5593123209169055,
+     "share_single": 0.44068767908309453,
+     "share_both": 0.5593123209169054,
+     "share_empty": 0.0
+    },
+    "marginal_a0.2": {
+     "coverage": 0.7787965616045845,
+     "coverage_depressed": 0.70625,
+     "coverage_not_depressed": 0.7861198738170347,
+     "avg_set_size": 1.3782234957020056,
+     "share_single": 0.6217765042979942,
+     "share_both": 0.37822349570200575,
+     "share_empty": 0.0
+    },
+    "mondrian_a0.2": {
+     "coverage": 0.7810888252148998,
+     "coverage_depressed": 0.7,
+     "coverage_not_depressed": 0.7892744479495268,
+     "avg_set_size": 1.3684813753581662,
+     "share_single": 0.6315186246418338,
+     "share_both": 0.36848137535816616,
+     "share_empty": 0.0
+    }
+   }
+  ]
+ },
+ "summary": {
+  "cnn_demo": {
+   "auc": [
+    0.6811908517350158,
+    0.02039296340025076
+   ],
+   "auc_ci_mean_bounds": [
+    0.6363746963317884,
+    0.7260417328842994
+   ],
+   "marginal_a0.05": {
+    "coverage": 0.9454441260744986,
+    "coverage_depressed": 0.9237499999999998,
+    "coverage_not_depressed": 0.9476340694006311,
+    "avg_set_size": 1.7753581661891118,
+    "share_single": 0.22464183381088826,
+    "share_both": 0.7753581661891118,
+    "share_empty": 0.0
+   },
+   "mondrian_a0.05": {
+    "coverage": 0.9462464183381089,
+    "coverage_depressed": 0.9475,
+    "coverage_not_depressed": 0.9461198738170348,
+    "avg_set_size": 1.8035530085959883,
+    "share_single": 0.19644699140401148,
+    "share_both": 0.8035530085959885,
+    "share_empty": 0.0
+   },
+   "marginal_a0.1": {
+    "coverage": 0.8989111747851004,
+    "coverage_depressed": 0.8387500000000001,
+    "coverage_not_depressed": 0.9049842271293376,
+    "avg_set_size": 1.5851002865329513,
+    "share_single": 0.4148997134670487,
+    "share_both": 0.5851002865329513,
+    "share_empty": 0.0,
+    "cov_dep_ci_mean_bounds": [
+     0.7795823981149209,
+     0.8916275040407902
+    ],
+    "cov_ci_mean_bounds": [
+     0.8845787965616045,
+     0.9124383954154729
+    ]
+   },
+   "mondrian_a0.1": {
+    "coverage": 0.896618911174785,
+    "coverage_depressed": 0.8975,
+    "coverage_not_depressed": 0.8965299684542586,
+    "avg_set_size": 1.669570200573066,
+    "share_single": 0.33042979942693407,
+    "share_both": 0.6695702005730659,
+    "share_empty": 0.0,
+    "cov_dep_ci_mean_bounds": [
+     0.8492111944587301,
+     0.9398701055472785
+    ],
+    "cov_ci_mean_bounds": [
+     0.8818338108882522,
+     0.9108366762177651
+    ]
+   },
+   "marginal_a0.2": {
+    "coverage": 0.7970200573065903,
+    "coverage_depressed": 0.71125,
+    "coverage_not_depressed": 0.8056782334384858,
+    "avg_set_size": 1.2711747851002866,
+    "share_single": 0.7288252148997135,
+    "share_both": 0.27117478510028653,
+    "share_empty": 0.0
+   },
+   "mondrian_a0.2": {
+    "coverage": 0.7965616045845272,
+    "coverage_depressed": 0.80375,
+    "coverage_not_depressed": 0.7958359621451103,
+    "avg_set_size": 1.4038968481375358,
+    "share_single": 0.5961031518624642,
+    "share_both": 0.4038968481375359,
+    "share_empty": 0.0
+   },
+   "subgroups_mondrian_a0.1": {
+    "men": {
+     "coverage": 0.9492246669429466,
+     "coverage_depressed": 0.7410233516371115,
+     "n": 842.8,
+     "n_dep": 56.0
+    },
+    "women": {
+     "coverage": 0.8470949192494028,
+     "coverage_depressed": 0.9808650349935638,
+     "n": 902.2,
+     "n_dep": 104.0
+    },
+    "age 18-39": {
+     "coverage": 0.9485506066278482,
+     "coverage_depressed": 0.823372859025033,
+     "n": 624.8,
+     "n_dep": 45.0
+    },
+    "age 40-59": {
+     "coverage": 0.8201807532141953,
+     "coverage_depressed": 0.9470387129210659,
+     "n": 551.2,
+     "n_dep": 63.2
+    },
+    "age 60+": {
+     "coverage": 0.9138829139910841,
+     "coverage_depressed": 0.9046608946608947,
+     "n": 569.0,
+     "n_dep": 51.8
+    },
+    "2011-12": {
+     "coverage": 0.9000498930733786,
+     "coverage_depressed": 0.9118438370654325,
+     "n": 844.4,
+     "n_dep": 73.6
+    },
+    "2013-14": {
+     "coverage": 0.893138516050994,
+     "coverage_depressed": 0.8855119881487943,
+     "n": 900.6,
+     "n_dep": 86.4
+    }
+   },
+   "mondrian_sex_a0.1": {
+    "coverage": 0.904297994269341,
+    "coverage_depressed": 0.91375,
+    "coverage_not_depressed": 0.9033438485804417,
+    "share_single": 0.3070487106017192,
+    "share_both": 0.6929512893982807,
+    "subgroups": {
+     "men": {
+      "coverage": 0.9074735928359345,
+      "coverage_depressed": 0.8678604685851383
+     },
+     "women": {
+      "coverage": 0.9010469175074439,
+      "coverage_depressed": 0.9377582103470917
+     },
+     "age 18-39": {
+      "coverage": 0.9604202878594033,
+      "coverage_depressed": 0.8370280444193486
+     },
+     "age 40-59": {
+      "coverage": 0.8360438560028239,
+      "coverage_depressed": 0.9590519284636931
+     },
+     "age 60+": {
+      "coverage": 0.9090879175317991,
+      "coverage_depressed": 0.9194285714285716
+     },
+     "2011-12": {
+      "coverage": 0.9087217310572253,
+      "coverage_depressed": 0.9282887025231907
+     },
+     "2013-14": {
+      "coverage": 0.9000129927368186,
+      "coverage_depressed": 0.9018699099545945
+     }
+    }
+   },
+   "band_rule_a0.1": {
+    "coverage": 0.9190830945558741,
+    "coverage_depressed": 0.8724999999999999,
+    "coverage_not_depressed": 0.9237854889589906,
+    "share_both": 0.6701432664756448,
+    "share_single": 0.3298567335243553
+   }
+  },
+  "ensemble": {
+   "auc": [
+    0.6804787066246056,
+    0.02187602297006875
+   ],
+   "auc_ci_mean_bounds": [
+    0.6351556987745932,
+    0.7248842171443644
+   ],
+   "marginal_a0.05": {
+    "coverage": 0.9473925501432664,
+    "coverage_depressed": 0.9324999999999999,
+    "coverage_not_depressed": 0.9488958990536277,
+    "avg_set_size": 1.7755873925501433,
+    "share_single": 0.22441260744985675,
+    "share_both": 0.7755873925501433,
+    "share_empty": 0.0
+   },
+   "mondrian_a0.05": {
+    "coverage": 0.9457879656160457,
+    "coverage_depressed": 0.9262500000000001,
+    "coverage_not_depressed": 0.9477602523659308,
+    "avg_set_size": 1.7887679083094554,
+    "share_single": 0.2112320916905444,
+    "share_both": 0.7887679083094555,
+    "share_empty": 0.0
+   },
+   "marginal_a0.1": {
+    "coverage": 0.8987965616045844,
+    "coverage_depressed": 0.85875,
+    "coverage_not_depressed": 0.902839116719243,
+    "avg_set_size": 1.6,
+    "share_single": 0.4,
+    "share_both": 0.6,
+    "share_empty": 0.0,
+    "cov_dep_ci_mean_bounds": [
+     0.802629662556299,
+     0.9097217808704183
+    ],
+    "cov_ci_mean_bounds": [
+     0.8845845272206304,
+     0.9126676217765043
+    ]
+   },
+   "mondrian_a0.1": {
+    "coverage": 0.8991404011461318,
+    "coverage_depressed": 0.8925000000000001,
+    "coverage_not_depressed": 0.8998107255520503,
+    "avg_set_size": 1.655816618911175,
+    "share_single": 0.3441833810888252,
+    "share_both": 0.6558166189111747,
+    "share_empty": 0.0,
+    "cov_dep_ci_mean_bounds": [
+     0.8442313276422493,
+     0.9371192901921879
+    ],
+    "cov_ci_mean_bounds": [
+     0.8849283667621777,
+     0.9130114613180517
+    ]
+   },
+   "marginal_a0.2": {
+    "coverage": 0.7927793696275072,
+    "coverage_depressed": 0.7462500000000001,
+    "coverage_not_depressed": 0.7974763406940063,
+    "avg_set_size": 1.310945558739255,
+    "share_single": 0.689054441260745,
+    "share_both": 0.310945558739255,
+    "share_empty": 0.0
+   },
+   "mondrian_a0.2": {
+    "coverage": 0.7917478510028653,
+    "coverage_depressed": 0.8012499999999999,
+    "coverage_not_depressed": 0.7907886435331231,
+    "avg_set_size": 1.3836103151862464,
+    "share_single": 0.6163896848137534,
+    "share_both": 0.38361031518624644,
+    "share_empty": 0.0
+   },
+   "subgroups_mondrian_a0.1": {
+    "men": {
+     "coverage": 0.9513601125503877,
+     "coverage_depressed": 0.7135800053258408,
+     "n": 842.8,
+     "n_dep": 56.0
+    },
+    "women": {
+     "coverage": 0.850017727848751,
+     "coverage_depressed": 0.9900761152326814,
+     "n": 902.2,
+     "n_dep": 104.0
+    },
+    "age 18-39": {
+     "coverage": 0.9375294337661509,
+     "coverage_depressed": 0.827428006775833,
+     "n": 624.8,
+     "n_dep": 45.0
+    },
+    "age 40-59": {
+     "coverage": 0.8652462932500287,
+     "coverage_depressed": 0.9291948574301514,
+     "n": 551.2,
+     "n_dep": 63.2
+    },
+    "age 60+": {
+     "coverage": 0.8898900920448817,
+     "coverage_depressed": 0.907853638425067,
+     "n": 569.0,
+     "n_dep": 51.8
+    },
+    "2011-12": {
+     "coverage": 0.9006153009295712,
+     "coverage_depressed": 0.8987617830285034,
+     "n": 844.4,
+     "n_dep": 73.6
+    },
+    "2013-14": {
+     "coverage": 0.8975835002819437,
+     "coverage_depressed": 0.8877858021540881,
+     "n": 900.6,
+     "n_dep": 86.4
+    }
+   },
+   "mondrian_sex_a0.1": {
+    "coverage": 0.8986819484240687,
+    "coverage_depressed": 0.91375,
+    "coverage_not_depressed": 0.8971608832807572,
+    "share_single": 0.30876790830945555,
+    "share_both": 0.6912320916905443,
+    "subgroups": {
+     "men": {
+      "coverage": 0.8968252840023554,
+      "coverage_depressed": 0.8768779725520479
+     },
+     "women": {
+      "coverage": 0.900232023325645,
+      "coverage_depressed": 0.9334671268768966
+     },
+     "age 18-39": {
+      "coverage": 0.9375148741564819,
+      "coverage_depressed": 0.832622811970638
+     },
+     "age 40-59": {
+      "coverage": 0.8648003231486252,
+      "coverage_depressed": 0.9448725131078071
+     },
+     "age 60+": {
+      "coverage": 0.8889454612867385,
+      "coverage_depressed": 0.9449268192125336
+     },
+     "2011-12": {
+      "coverage": 0.901041151468687,
+      "coverage_depressed": 0.9030220652299621
+     },
+     "2013-14": {
+      "coverage": 0.8962575315857386,
+      "coverage_depressed": 0.9216708528566373
+     }
+    }
+   },
+   "band_rule_a0.1": {
+    "coverage": 0.915300859598854,
+    "coverage_depressed": 0.8799999999999999,
+    "coverage_not_depressed": 0.9188643533123029,
+    "share_both": 0.6545558739255013,
+    "share_single": 0.3454441260744986
+   }
+  },
+  "cnn": {
+   "auc": [
+    0.6461719242902209,
+    0.02365155503951486
+   ],
+   "auc_ci_mean_bounds": [
+    0.5997318052575953,
+    0.6893823775540394
+   ],
+   "marginal_a0.05": {
+    "coverage": 0.9531232091690545,
+    "coverage_depressed": 0.9712500000000001,
+    "coverage_not_depressed": 0.9512933753943218,
+    "avg_set_size": 1.8558166189111749,
+    "share_single": 0.14418338108882522,
+    "share_both": 0.8558166189111749,
+    "share_empty": 0.0
+   },
+   "mondrian_a0.05": {
+    "coverage": 0.9527793696275072,
+    "coverage_depressed": 0.96,
+    "coverage_not_depressed": 0.9520504731861198,
+    "avg_set_size": 1.8409169054441261,
+    "share_single": 0.15908309455587394,
+    "share_both": 0.8409169054441261,
+    "share_empty": 0.0
+   },
+   "marginal_a0.1": {
+    "coverage": 0.9034957020057306,
+    "coverage_depressed": 0.9275,
+    "coverage_not_depressed": 0.9010725552050474,
+    "avg_set_size": 1.711862464183381,
+    "share_single": 0.2881375358166189,
+    "share_both": 0.7118624641833811,
+    "share_empty": 0.0,
+    "cov_dep_ci_mean_bounds": [
+     0.8862094928444624,
+     0.9647787040059145
+    ],
+    "cov_ci_mean_bounds": [
+     0.8893954154727794,
+     0.917593123209169
+    ]
+   },
+   "mondrian_a0.1": {
+    "coverage": 0.8998280802292262,
+    "coverage_depressed": 0.9037499999999999,
+    "coverage_not_depressed": 0.8994321766561514,
+    "avg_set_size": 1.6795415472779371,
+    "share_single": 0.3204584527220631,
+    "share_both": 0.6795415472779369,
+    "share_empty": 0.0,
+    "cov_dep_ci_mean_bounds": [
+     0.8595993134919006,
+     0.9457338001903324
+    ],
+    "cov_ci_mean_bounds": [
+     0.8859512893982806,
+     0.9134670487106018
+    ]
+   },
+   "marginal_a0.2": {
+    "coverage": 0.7981661891117479,
+    "coverage_depressed": 0.7949999999999999,
+    "coverage_not_depressed": 0.7984858044164038,
+    "avg_set_size": 1.425214899713467,
+    "share_single": 0.574785100286533,
+    "share_both": 0.4252148997134671,
+    "share_empty": 0.0
+   },
+   "mondrian_a0.2": {
+    "coverage": 0.7964469914040115,
+    "coverage_depressed": 0.80625,
+    "coverage_not_depressed": 0.7954574132492114,
+    "avg_set_size": 1.4398853868194845,
+    "share_single": 0.5601146131805158,
+    "share_both": 0.4398853868194842,
+    "share_empty": 0.0
+   },
+   "subgroups_mondrian_a0.1": {
+    "men": {
+     "coverage": 0.8835923201754572,
+     "coverage_depressed": 0.8867740064373001,
+     "n": 842.8,
+     "n_dep": 56.0
+    },
+    "women": {
+     "coverage": 0.9149788231660672,
+     "coverage_depressed": 0.9112541108027277,
+     "n": 902.2,
+     "n_dep": 104.0
+    },
+    "age 18-39": {
+     "coverage": 0.9025406109738494,
+     "coverage_depressed": 0.8718680594767552,
+     "n": 624.8,
+     "n_dep": 45.0
+    },
+    "age 40-59": {
+     "coverage": 0.9133667657347836,
+     "coverage_depressed": 0.9107771313653666,
+     "n": 551.2,
+     "n_dep": 63.2
+    },
+    "age 60+": {
+     "coverage": 0.8843273816162487,
+     "coverage_depressed": 0.9207862296433724,
+     "n": 569.0,
+     "n_dep": 51.8
+    },
+    "2011-12": {
+     "coverage": 0.8995878560859862,
+     "coverage_depressed": 0.8873242546691378,
+     "n": 844.4,
+     "n_dep": 73.6
+    },
+    "2013-14": {
+     "coverage": 0.899812758045649,
+     "coverage_depressed": 0.9181161850085029,
+     "n": 900.6,
+     "n_dep": 86.4
+    }
+   },
+   "mondrian_sex_a0.1": {
+    "coverage": 0.9010888252148996,
+    "coverage_depressed": 0.9125,
+    "coverage_not_depressed": 0.89993690851735,
+    "share_single": 0.29444126074498567,
+    "share_both": 0.7055587392550143,
+    "subgroups": {
+     "men": {
+      "coverage": 0.8911606179436719,
+      "coverage_depressed": 0.8919708392687934
+     },
+     "women": {
+      "coverage": 0.9103135453080325,
+      "coverage_depressed": 0.9232574848144749
+     },
+     "age 18-39": {
+      "coverage": 0.9041101858311595,
+      "coverage_depressed": 0.875742518351214
+     },
+     "age 40-59": {
+      "coverage": 0.9126882685361842,
+      "coverage_depressed": 0.9170516411692882
+     },
+     "age 60+": {
+      "coverage": 0.8872213198610318,
+      "coverage_depressed": 0.9358375592661308
+     },
+     "2011-12": {
+      "coverage": 0.9007579049370671,
+      "coverage_depressed": 0.8983470375090036
+     },
+     "2013-14": {
+      "coverage": 0.9011760279088372,
+      "coverage_depressed": 0.925237575225691
+     }
+    }
+   },
+   "band_rule_a0.1": {
+    "coverage": 0.8944412607449855,
+    "coverage_depressed": 0.915,
+    "coverage_not_depressed": 0.8923659305993692,
+    "share_both": 0.6873352435530086,
+    "share_single": 0.31266475644699143
+   }
+  },
+  "logreg_demo": {
+   "auc": [
+    0.6622145110410095,
+    0.022377893536200327
+   ],
+   "auc_ci_mean_bounds": [
+    0.6171335789624554,
+    0.7062765370825261
+   ],
+   "marginal_a0.05": {
+    "coverage": 0.9475071633237823,
+    "coverage_depressed": 0.945,
+    "coverage_not_depressed": 0.9477602523659308,
+    "avg_set_size": 1.8146704871060173,
+    "share_single": 0.1853295128939828,
+    "share_both": 0.8146704871060171,
+    "share_empty": 0.0
+   },
+   "mondrian_a0.05": {
+    "coverage": 0.9470487106017191,
+    "coverage_depressed": 0.92875,
+    "coverage_not_depressed": 0.9488958990536279,
+    "avg_set_size": 1.8,
+    "share_single": 0.2,
+    "share_both": 0.8,
+    "share_empty": 0.0
+   },
+   "marginal_a0.1": {
+    "coverage": 0.8995988538681947,
+    "coverage_depressed": 0.88375,
+    "coverage_not_depressed": 0.901198738170347,
+    "avg_set_size": 1.644813753581662,
+    "share_single": 0.35518624641833807,
+    "share_both": 0.6448137535816618,
+    "share_empty": 0.0,
+    "cov_dep_ci_mean_bounds": [
+     0.8327817075527435,
+     0.9309863624574328
+    ],
+    "cov_ci_mean_bounds": [
+     0.8852664756446991,
+     0.9132406876790832
+    ]
+   },
+   "mondrian_a0.1": {
+    "coverage": 0.8992550143266476,
+    "coverage_depressed": 0.8887499999999999,
+    "coverage_not_depressed": 0.9003154574132491,
+    "avg_set_size": 1.6692263610315188,
+    "share_single": 0.33077363896848133,
+    "share_both": 0.6692263610315188,
+    "share_empty": 0.0,
+    "cov_dep_ci_mean_bounds": [
+     0.8398537070840775,
+     0.9320356843062673
+    ],
+    "cov_ci_mean_bounds": [
+     0.8848137535816619,
+     0.9131232091690544
+    ]
+   },
+   "marginal_a0.2": {
+    "coverage": 0.7950716332378224,
+    "coverage_depressed": 0.7762499999999999,
+    "coverage_not_depressed": 0.7969716088328076,
+    "avg_set_size": 1.364355300859599,
+    "share_single": 0.6356446991404011,
+    "share_both": 0.3643553008595989,
+    "share_empty": 0.0
+   },
+   "mondrian_a0.2": {
+    "coverage": 0.7947277936962751,
+    "coverage_depressed": 0.8012499999999999,
+    "coverage_not_depressed": 0.7940694006309149,
+    "avg_set_size": 1.4110028653295128,
+    "share_single": 0.5889971346704872,
+    "share_both": 0.4110028653295129,
+    "share_empty": 0.0
+   },
+   "subgroups_mondrian_a0.1": {
+    "men": {
+     "coverage": 0.9447701555943944,
+     "coverage_depressed": 0.7060214263386903,
+     "n": 842.8,
+     "n_dep": 56.0
+    },
+    "women": {
+     "coverage": 0.8564647331689281,
+     "coverage_depressed": 0.9898834184410829,
+     "n": 902.2,
+     "n_dep": 104.0
+    },
+    "age 18-39": {
+     "coverage": 0.9163165846752014,
+     "coverage_depressed": 0.8265998494259363,
+     "n": 624.8,
+     "n_dep": 45.0
+    },
+    "age 40-59": {
+     "coverage": 0.9107514187855245,
+     "coverage_depressed": 0.9142921784098255,
+     "n": 551.2,
+     "n_dep": 63.2
+    },
+    "age 60+": {
+     "coverage": 0.8692353722821011,
+     "coverage_depressed": 0.9142383013811586,
+     "n": 569.0,
+     "n_dep": 51.8
+    },
+    "2011-12": {
+     "coverage": 0.8997421680471392,
+     "coverage_depressed": 0.8904002815163171,
+     "n": 844.4,
+     "n_dep": 73.6
+    },
+    "2013-14": {
+     "coverage": 0.8987347040886627,
+     "coverage_depressed": 0.8877455293003728,
+     "n": 900.6,
+     "n_dep": 86.4
+    }
+   },
+   "mondrian_sex_a0.1": {
+    "coverage": 0.8992550143266476,
+    "coverage_depressed": 0.89375,
+    "coverage_not_depressed": 0.8998107255520505,
+    "share_single": 0.3057879656160459,
+    "share_both": 0.6942120343839541,
+    "subgroups": {
+     "men": {
+      "coverage": 0.895353942685704,
+      "coverage_depressed": 0.8459633844946028
+     },
+     "women": {
+      "coverage": 0.9025053223420269,
+      "coverage_depressed": 0.9204336640505829
+     },
+     "age 18-39": {
+      "coverage": 0.9218447129079671,
+      "coverage_depressed": 0.8339836250705815
+     },
+     "age 40-59": {
+      "coverage": 0.9080118352460191,
+      "coverage_depressed": 0.9106794512676866
+     },
+     "age 60+": {
+      "coverage": 0.8660754658299756,
+      "coverage_depressed": 0.9266237889095033
+     },
+     "2011-12": {
+      "coverage": 0.9006351683747951,
+      "coverage_depressed": 0.8839054512503344
+     },
+     "2013-14": {
+      "coverage": 0.8978515241416455,
+      "coverage_depressed": 0.9006531956953161
+     }
+    }
+   },
+   "band_rule_a0.1": {
+    "coverage": 0.9037249283667622,
+    "coverage_depressed": 0.8862500000000001,
+    "coverage_not_depressed": 0.9054889589905363,
+    "share_both": 0.6672779369627506,
+    "share_single": 0.33272206303724927
+   }
+  }
+ }
+}
