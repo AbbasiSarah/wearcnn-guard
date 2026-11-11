@@ -100,6 +100,9 @@ tests/test_conformal.py  checks the guarantee and the gradients
 - The guarantee assumes new people resemble the calibration people (exchangeability). For a new population, the model must be recalibrated on local data.
 - Coverage is guaranteed on average over calibration draws; any single split can fall slightly below 90%, as the table shows.
 
+## Next step
+Testing the pipeline on data from a consumer smartwatch (Mi Watch Lite via Mi Fitness / Health Connect) to measure how well the model and its guarantee transfer from research actigraphs to everyday devices.
+
 ## Related work by me
 
 - [depression-bipolar_CNN](https://github.com/AbbasiSarah/depression-bipolar_CNN): detecting and forecasting depressive episodes with a NumPy 1-D CNN (Depresjon dataset).
