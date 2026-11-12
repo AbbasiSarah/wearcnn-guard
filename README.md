@@ -4,6 +4,8 @@
 
 **Depression screening from one week of wrist activity, with a provable 90% guarantee.**
 
+**▶ [Try the live demo in your browser](https://abbasisarah.github.io/demos/wearcnn-guard/)**: load a week of wrist activity (or a sample) and see the three-way answer. Your file never leaves your device.
+
 A 1-D convolutional neural network, written from scratch in NumPy, reads one week of minute-by-minute wrist activity from **8,723 US adults (NHANES 2011–2014)** and screens for depression (PHQ-9 ≥ 10). Instead of a single yes/no answer, it returns a **conformal prediction set** that contains the true answer at least 90% of the time. With class-conditional ("Mondrian") calibration, that guarantee also holds for depressed people specifically, not just on average.
 
 > This is a research project, not a medical device. The PHQ-9 is itself a screening questionnaire, not a diagnosis.
