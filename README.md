@@ -116,3 +116,6 @@ Testing the pipeline on data from a consumer smartwatch (Mi Watch Lite via Mi Fi
 - Vovk, V., Gammerman, A., & Shafer, G. (2005). *Algorithmic Learning in a Random World*. Springer.
 - Angelopoulos, A. N., & Bates, S. (2023). Conformal prediction: A gentle introduction. *Foundations and Trends in Machine Learning*, 16(4), 494–591.
 - Kroenke, K., Spitzer, R. L., & Williams, J. B. W. (2001). The PHQ-9: Validity of a brief depression severity measure. *Journal of General Internal Medicine*, 16(9), 606–613.
+
+## License
+Copyright (c) 2026 Sara Abbasi. **All rights reserved.** You may view this code, but copying, reusing or publishing any part of it requires prior written permission. See [LICENSE](LICENSE). To ask for permission, contact me via [abbasisarah.github.io](https://abbasisarah.github.io).
